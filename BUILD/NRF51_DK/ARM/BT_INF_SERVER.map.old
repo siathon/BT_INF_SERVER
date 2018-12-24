@@ -1,0 +1,1138 @@
+Component: ARM Compiler 5.06 update 6 (build 750) Tool: armlink [4d35ed]
+
+==============================================================================
+
+Memory Map of the image
+
+  Image Entry point : 0x0001b0c1
+
+  Load Region LR_IROM1 (Base: 0x0001b000, Size: 0x0001d7e8, Max: 0x00025000, ABSOLUTE, COMPRESSED[0x0001cd6c])
+
+    Execution Region ER_IROM1 (Base: 0x0001b000, Size: 0x0001ccdc, Max: 0x00025000, ABSOLUTE)
+
+    Base Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x0001b000   0x000000c0   Data   RO        23743    RESET               BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_NRF51/TARGET_MCU_NRF51822_UNIFIED/device/TOOLCHAIN_ARM_STD/TARGET_MCU_NORDIC_32K/startup_nRF51822.o
+    0x0001b0c0   0x00000008   Code   RO        25635  * !!!main             C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(__main.o)
+    0x0001b0c8   0x0000003c   Code   RO        26327    !!!scatter          C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(__scatter.o)
+    0x0001b104   0x0000001c   Code   RO        26329    !!handler_zi        C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(__scatter_zi.o)
+    0x0001b120   0x00000002   Code   RO        25508    .ARM.Collect$$_printf_percent$$00000000  C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(_printf_percent.o)
+    0x0001b122   0x0000000a   Code   RO        25907    .ARM.Collect$$_printf_percent$$00000001  C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(_printf_n.o)
+    0x0001b12c   0x0000000a   Code   RO        25504    .ARM.Collect$$_printf_percent$$00000002  C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(_printf_p.o)
+    0x0001b136   0x0000000a   Code   RO        25507    .ARM.Collect$$_printf_percent$$00000003  C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(_printf_f.o)
+    0x0001b140   0x0000000a   Code   RO        25910    .ARM.Collect$$_printf_percent$$00000004  C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(_printf_e.o)
+    0x0001b14a   0x0000000a   Code   RO        25911    .ARM.Collect$$_printf_percent$$00000005  C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(_printf_g.o)
+    0x0001b154   0x0000000a   Code   RO        25912    .ARM.Collect$$_printf_percent$$00000006  C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(_printf_a.o)
+    0x0001b15e   0x0000000a   Code   RO        25917    .ARM.Collect$$_printf_percent$$00000007  C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(_printf_ll.o)
+    0x0001b168   0x0000000a   Code   RO        25909    .ARM.Collect$$_printf_percent$$00000008  C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(_printf_i.o)
+    0x0001b172   0x0000000a   Code   RO        25505    .ARM.Collect$$_printf_percent$$00000009  C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(_printf_d.o)
+    0x0001b17c   0x0000000a   Code   RO        25506    .ARM.Collect$$_printf_percent$$0000000A  C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(_printf_u.o)
+    0x0001b186   0x0000000a   Code   RO        25908    .ARM.Collect$$_printf_percent$$0000000B  C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(_printf_o.o)
+    0x0001b190   0x0000000a   Code   RO        25503    .ARM.Collect$$_printf_percent$$0000000C  C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(_printf_x.o)
+    0x0001b19a   0x0000000a   Code   RO        25914    .ARM.Collect$$_printf_percent$$0000000D  C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(_printf_lli.o)
+    0x0001b1a4   0x0000000a   Code   RO        25915    .ARM.Collect$$_printf_percent$$0000000E  C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(_printf_lld.o)
+    0x0001b1ae   0x0000000a   Code   RO        25916    .ARM.Collect$$_printf_percent$$0000000F  C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(_printf_llu.o)
+    0x0001b1b8   0x0000000a   Code   RO        25921    .ARM.Collect$$_printf_percent$$00000010  C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(_printf_llo.o)
+    0x0001b1c2   0x0000000a   Code   RO        25922    .ARM.Collect$$_printf_percent$$00000011  C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(_printf_llx.o)
+    0x0001b1cc   0x0000000a   Code   RO        25918    .ARM.Collect$$_printf_percent$$00000012  C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(_printf_l.o)
+    0x0001b1d6   0x0000000a   Code   RO        25906    .ARM.Collect$$_printf_percent$$00000013  C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(_printf_c.o)
+    0x0001b1e0   0x0000000a   Code   RO        25502    .ARM.Collect$$_printf_percent$$00000014  C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(_printf_s.o)
+    0x0001b1ea   0x0000000a   Code   RO        25919    .ARM.Collect$$_printf_percent$$00000015  C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(_printf_lc.o)
+    0x0001b1f4   0x0000000a   Code   RO        25920    .ARM.Collect$$_printf_percent$$00000016  C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(_printf_ls.o)
+    0x0001b1fe   0x00000004   Code   RO        25913    .ARM.Collect$$_printf_percent$$00000017  C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(_printf_percent_end.o)
+    0x0001b202   0x00000002   Code   RO        25634    .ARM.Collect$$libinit$$00000000  C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(libinit.o)
+    0x0001b204   0x00000000   Code   RO        25983    .ARM.Collect$$libinit$$00000002  C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(libinit2.o)
+    0x0001b204   0x00000000   Code   RO        25985    .ARM.Collect$$libinit$$00000004  C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(libinit2.o)
+    0x0001b204   0x00000008   Code   RO        25986    .ARM.Collect$$libinit$$00000005  C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(libinit2.o)
+    0x0001b20c   0x00000000   Code   RO        25988    .ARM.Collect$$libinit$$0000000A  C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(libinit2.o)
+    0x0001b20c   0x00000000   Code   RO        25990    .ARM.Collect$$libinit$$0000000C  C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(libinit2.o)
+    0x0001b20c   0x00000000   Code   RO        25992    .ARM.Collect$$libinit$$0000000E  C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(libinit2.o)
+    0x0001b20c   0x00000006   Code   RO        25993    .ARM.Collect$$libinit$$0000000F  C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(libinit2.o)
+    0x0001b212   0x00000000   Code   RO        25995    .ARM.Collect$$libinit$$00000011  C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(libinit2.o)
+    0x0001b212   0x0000000c   Code   RO        25996    .ARM.Collect$$libinit$$00000012  C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(libinit2.o)
+    0x0001b21e   0x00000000   Code   RO        25997    .ARM.Collect$$libinit$$00000013  C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(libinit2.o)
+    0x0001b21e   0x00000000   Code   RO        25999    .ARM.Collect$$libinit$$00000015  C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(libinit2.o)
+    0x0001b21e   0x0000000a   Code   RO        26000    .ARM.Collect$$libinit$$00000016  C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(libinit2.o)
+    0x0001b228   0x00000000   Code   RO        26001    .ARM.Collect$$libinit$$00000017  C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(libinit2.o)
+    0x0001b228   0x00000000   Code   RO        26003    .ARM.Collect$$libinit$$00000019  C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(libinit2.o)
+    0x0001b228   0x00000000   Code   RO        26005    .ARM.Collect$$libinit$$0000001B  C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(libinit2.o)
+    0x0001b228   0x00000000   Code   RO        26007    .ARM.Collect$$libinit$$0000001D  C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(libinit2.o)
+    0x0001b228   0x00000000   Code   RO        26009    .ARM.Collect$$libinit$$0000001F  C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(libinit2.o)
+    0x0001b228   0x00000000   Code   RO        26011    .ARM.Collect$$libinit$$00000021  C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(libinit2.o)
+    0x0001b228   0x00000000   Code   RO        26013    .ARM.Collect$$libinit$$00000023  C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(libinit2.o)
+    0x0001b228   0x00000004   Code   RO        26014    .ARM.Collect$$libinit$$00000024  C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(libinit2.o)
+    0x0001b22c   0x00000000   Code   RO        26015    .ARM.Collect$$libinit$$00000025  C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(libinit2.o)
+    0x0001b22c   0x00000000   Code   RO        26019    .ARM.Collect$$libinit$$0000002C  C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(libinit2.o)
+    0x0001b22c   0x00000000   Code   RO        26021    .ARM.Collect$$libinit$$0000002E  C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(libinit2.o)
+    0x0001b22c   0x00000000   Code   RO        26023    .ARM.Collect$$libinit$$00000030  C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(libinit2.o)
+    0x0001b22c   0x00000004   Code   RO        26024    .ARM.Collect$$libinit$$00000031  C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(libinit2.o)
+    0x0001b230   0x00000000   Code   RO        26025    .ARM.Collect$$libinit$$00000032  C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(libinit2.o)
+    0x0001b230   0x00000002   Code   RO        26026    .ARM.Collect$$libinit$$00000033  C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(libinit2.o)
+    0x0001b232   0x00000000   Code   RO        26168    .ARM.Collect$$libshutdown$$00000004  C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(libshutdown2.o)
+    0x0001b232   0x00000000   Code   RO        26179    .ARM.Collect$$libshutdown$$0000000F  C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(libshutdown2.o)
+    0x0001b232   0x00000002   PAD
+    0x0001b234   0x00000038   Code   RO        25607    .emb_text           C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(rt_memcpy.o)
+    0x0001b26c   0x00000000   Code   RO        26074    .emb_text           C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(maybetermalloc2.o)
+    0x0001b26c   0x000000d8   Code   RO        22920    .text               BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/TARGET_CORTEX_M/TOOLCHAIN_ARM/except.o
+    0x0001b344   0x000000a4   Code   RO        23081    .text               BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/TOOLCHAIN_ARM/TARGET_M0/irq_cm0.o
+    0x0001b3e8   0x00000040   Code   RO        23744    .text               BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_NRF51/TARGET_MCU_NRF51822_UNIFIED/device/TOOLCHAIN_ARM_STD/TARGET_MCU_NORDIC_32K/startup_nRF51822.o
+    0x0001b428   0x00000010   Code   RO        25344    .text               C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(rt_ctype_table.o)
+    0x0001b438   0x00000008   Code   RO        25351    .text               C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(rt_errno_addr_twolibspace.o)
+    0x0001b440   0x0000009a   Code   RO        25367    .text               C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(h1_alloc_mt.o)
+    0x0001b4da   0x00000074   Code   RO        25369    .text               C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(h1_free_mt.o)
+    0x0001b54e   0x00000020   Code   RO        25423    .text               C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(llshl.o)
+    0x0001b56e   0x00000022   Code   RO        25425    .text               C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(llushr.o)
+    0x0001b590   0x00000030   Code   RO        25427    .text               C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(llmul.o)
+    0x0001b5c0   0x00000102   Code   RO        25429    .text               C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(lludiv.o)
+    0x0001b6c2   0x00000002   PAD
+    0x0001b6c4   0x00000038   Code   RO        25433    .text               C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(vsnprintf.o)
+    0x0001b6fc   0x0000002c   Code   RO        25443    .text               C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(__2sprintf.o)
+    0x0001b728   0x0000004e   Code   RO        25455    .text               C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(_printf_pad.o)
+    0x0001b776   0x00000052   Code   RO        25457    .text               C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(_printf_str.o)
+    0x0001b7c8   0x0000006c   Code   RO        25459    .text               C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(_printf_dec.o)
+    0x0001b834   0x00000098   Code   RO        25479    .text               C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(_printf_hex_int_ll_ptr.o)
+    0x0001b8cc   0x00000188   Code   RO        25499    .text               C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(__printf_flags_ss_wp.o)
+    0x0001ba54   0x000000f4   Code   RO        25541    .text               C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(fseek.o)
+    0x0001bb48   0x00000042   Code   RO        25543    .text               C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(ftell.o)
+    0x0001bb8a   0x0000001a   Code   RO        25551    .text               C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(setbuf.o)
+    0x0001bba4   0x0000004c   Code   RO        25559    .text               C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(fclose.o)
+    0x0001bbf0   0x00000034   Code   RO        25567    .text               C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(fclose_locked.o)
+    0x0001bc24   0x00000140   Code   RO        25573    .text               C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(fopen_locked.o)
+    0x0001bd64   0x00000020   Code   RO        25589    .text               C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(strspn.o)
+    0x0001bd84   0x0000005a   Code   RO        25593    .text               C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(memcmp.o)
+    0x0001bdde   0x00000002   PAD
+    0x0001bde0   0x00000044   Code   RO        25597    .text               C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(strlen.o)
+    0x0001be24   0x00000082   Code   RO        25608    .text               C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(rt_memcpy.o)
+    0x0001bea6   0x00000096   Code   RO        25611    .text               C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(rt_memmove.o)
+    0x0001bf3c   0x00000012   Code   RO        25615    .text               C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(aeabi_memset.o)
+    0x0001bf4e   0x00000040   Code   RO        25617    .text               C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(rt_memclr.o)
+    0x0001bf8e   0x00000002   PAD
+    0x0001bf90   0x000000a0   Code   RO        25621    .text               C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(strcmpv6m.o)
+    0x0001c030   0x000001e8   Code   RO        25628    .text               C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(aeabi_sdivfast.o)
+    0x0001c218   0x00000006   Code   RO        25632    .text               C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(heapauxi.o)
+    0x0001c21e   0x00000002   PAD
+    0x0001c220   0x00000024   Code   RO        25640    .text               C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(init_aeabi.o)
+    0x0001c244   0x00000022   Code   RO        25753    .text               C:\Keil_v5\ARM\ARMCC\bin\..\lib\cpplib\cpprt_p.l(aeabi_vec_dtor_noexceptions.o)
+    0x0001c266   0x00000002   PAD
+    0x0001c268   0x0000007c   Code   RO        25762    .text               C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\fz_ps.l(d2f.o)
+    0x0001c2e4   0x00000358   Code   RO        25764    .text               C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\fz_ps.l(daddsub.o)
+    0x0001c63c   0x00000448   Code   RO        25766    .text               C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\fz_ps.l(ddiv.o)
+    0x0001ca84   0x0000006c   Code   RO        25771    .text               C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\fz_ps.l(dfixi.o)
+    0x0001caf0   0x00000058   Code   RO        25775    .text               C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\fz_ps.l(dflti.o)
+    0x0001cb48   0x00000054   Code   RO        25785    .text               C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\fz_ps.l(f2d.o)
+    0x0001cb9c   0x00000160   Code   RO        25793    .text               C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\fz_ps.l(fdiv.o)
+    0x0001ccfc   0x0000004c   Code   RO        25796    .text               C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\fz_ps.l(ffixi.o)
+    0x0001cd48   0x0000005e   Code   RO        25802    .text               C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\fz_ps.l(fflti.o)
+    0x0001cda6   0x00000002   PAD
+    0x0001cda8   0x00000008   Code   RO        25832    .text               C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(libspace.o)
+    0x0001cdb0   0x0000000a   Code   RO        25848    .text               C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(rt_heap_descriptor_twolibspace.o)
+    0x0001cdba   0x0000000a   Code   RO        25855    .text               C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(rt_locale_twolibspace.o)
+    0x0001cdc4   0x00000004   Code   RO        25857    .text               C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(hguard.o)
+    0x0001cdc8   0x00000088   Code   RO        25859    .text               C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(init_alloc.o)
+    0x0001ce50   0x00000016   Code   RO        25865    .text               C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(h1_init_mt.o)
+    0x0001ce66   0x00000024   Code   RO        25877    .text               C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(_printf_truncate.o)
+    0x0001ce8a   0x000000b0   Code   RO        25879    .text               C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(_printf_intcommon.o)
+    0x0001cf3a   0x00000026   Code   RO        25881    .text               C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(_printf_charcount.o)
+    0x0001cf60   0x00000418   Code   RO        25883    .text               C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(_printf_fp_dec.o)
+    0x0001d378   0x00000030   Code   RO        25885    .text               C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(_printf_char_common.o)
+    0x0001d3a8   0x0000000a   Code   RO        25887    .text               C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(_sputc.o)
+    0x0001d3b2   0x00000010   Code   RO        25889    .text               C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(_snputc.o)
+    0x0001d3c2   0x0000002e   Code   RO        25891    .text               C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(_printf_char.o)
+    0x0001d3f0   0x000000bc   Code   RO        25895    .text               C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(_printf_wctomb.o)
+    0x0001d4ac   0x00000070   Code   RO        25898    .text               C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(_printf_longlong_dec.o)
+    0x0001d51c   0x00000070   Code   RO        25904    .text               C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(_printf_oct_int_ll.o)
+    0x0001d58c   0x000000f0   Code   RO        25951    .text               C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(stdio.o)
+    0x0001d67c   0x0000006c   Code   RO        25958    .text               C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(setvbuf_locked.o)
+    0x0001d6e8   0x000001cc   Code   RO        25960    .text               C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(initio_locked.o)
+    0x0001d8b4   0x0000000c   Code   RO        25967    .text               C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(defsig_pvfn_outer.o)
+    0x0001d8c0   0x00000028   Code   RO        25978    .text               C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(rtudiv10.o)
+    0x0001d8e8   0x0000000c   Code   RO        26063    .text               C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(sys_wrch.o)
+    0x0001d8f4   0x0000000c   Code   RO        26065    .text               C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(sys_exit.o)
+    0x0001d900   0x00000036   Code   RO        26077    .text               C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(h1_extend_mt.o)
+    0x0001d936   0x0000007a   Code   RO        26079    .text               C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(lludiv10.o)
+    0x0001d9b0   0x000002d8   Code   RO        26083    .text               C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(_printf_fp_hex.o)
+    0x0001dc88   0x00000088   Code   RO        26086    .text               C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(_printf_fp_infnan.o)
+    0x0001dd10   0x0000002e   Code   RO        26092    .text               C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(_printf_wchar.o)
+    0x0001dd3e   0x00000002   PAD
+    0x0001dd40   0x000000d8   Code   RO        26104    .text               C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(bigflt0.o)
+    0x0001de18   0x00000580   Code   RO        26107    .text               C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(btod.o)
+    0x0001e398   0x00000040   Code   RO        26137    .text               C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(_wcrtomb.o)
+    0x0001e3d8   0x0000000c   Code   RO        26142    .text               C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(defsig_exit.o)
+    0x0001e3e4   0x0000000c   Code   RO        26148    .text               C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(defsig_rtred_outer.o)
+    0x0001e3f0   0x0000000c   Code   RO        26152    .text               C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(defsig_rtmem_outer.o)
+    0x0001e3fc   0x00000030   Code   RO        26156    .text               C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(defsig_pvfn_inner.o)
+    0x0001e42c   0x00000002   Code   RO        26215    .text               C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(use_no_semi.o)
+    0x0001e42e   0x00000000   Code   RO        26217    .text               C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(indicate_semi.o)
+    0x0001e42e   0x0000000e   Code   RO        26225    .text               C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(term_alloc.o)
+    0x0001e43c   0x00000034   Code   RO        26233    .text               C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(defsig_general.o)
+    0x0001e470   0x00000034   Code   RO        26241    .text               C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(defsig_rtred_inner.o)
+    0x0001e4a4   0x00000050   Code   RO        26243    .text               C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(defsig_rtmem_inner.o)
+    0x0001e4f4   0x0000000a   Code   RO        26277    .text               C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(h1_final_mt.o)
+    0x0001e4fe   0x00000056   Code   RO        26325    .text               C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(__dczerorl2.o)
+    0x0001e554   0x00000008   Code   RO        22212    i.$Sub$$free        BUILD/NRF51_DK/ARM/mbed-os/platform/mbed_alloc_wrappers.o
+    0x0001e55c   0x00000008   Code   RO        22213    i.$Sub$$malloc      BUILD/NRF51_DK/ARM/mbed-os/platform/mbed_alloc_wrappers.o
+    0x0001e564   0x0000000c   Code   RO         2102    i.<Func3>           BUILD/NRF51_DK/ARM/mbed-os/drivers/SerialBase.o
+    0x0001e570   0x000000a0   Code   RO        23800    i.ADC_IRQHandler    BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_NRF51/TARGET_MCU_NRF51822_UNIFIED/sdk/drivers_nrf/adc/nrf_drv_adc.o
+    0x0001e610   0x00000002   Code   RO        23131    i.EvrRtxEventFlagsError  BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_evr.o
+    0x0001e612   0x00000002   Code   RO        23132    i.EvrRtxKernelError  BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_evr.o
+    0x0001e614   0x00000002   Code   RO        23134    i.EvrRtxMessageQueueError  BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_evr.o
+    0x0001e616   0x00000002   Code   RO        23135    i.EvrRtxMutexError  BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_evr.o
+    0x0001e618   0x00000002   Code   RO        23136    i.EvrRtxSemaphoreError  BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_evr.o
+    0x0001e61a   0x00000002   Code   RO        23137    i.EvrRtxThreadError  BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_evr.o
+    0x0001e61c   0x00000018   Code   RO        22981    i.EvrRtxThreadExit  BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/mbed_rtx_handlers.o
+    0x0001e634   0x00000010   Code   RO        22982    i.EvrRtxThreadTerminate  BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/mbed_rtx_handlers.o
+    0x0001e644   0x00000150   Code   RO        24695    i.GPIOTE_IRQHandler  BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_11/drivers_nrf/gpiote/nrf_drv_gpiote.o
+    0x0001e794   0x00000056   Code   RO        23298    i.MessageQueuePut   BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_msgqueue.o
+    0x0001e7ea   0x00000002   PAD
+    0x0001e7ec   0x00000010   Code   RO        23749    i.NVIC_SetVector    BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_NRF51/TARGET_MCU_NRF51822_UNIFIED/device/cmsis_nvic.o
+    0x0001e7fc   0x00000002   Code   RO        22996    i.OS_Tick_AcknowledgeIRQ  BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/mbed_rtx_idle.o
+    0x0001e7fe   0x00000002   PAD
+    0x0001e800   0x00000010   Code   RO        22997    i.OS_Tick_Disable   BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/mbed_rtx_idle.o
+    0x0001e810   0x00000028   Code   RO        22998    i.OS_Tick_Enable    BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/mbed_rtx_idle.o
+    0x0001e838   0x00000006   Code   RO        23000    i.OS_Tick_GetIRQn   BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/mbed_rtx_idle.o
+    0x0001e83e   0x00000002   PAD
+    0x0001e840   0x00000050   Code   RO        23576    i.OS_Tick_Setup     BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/rtx5/Source/os_systick.o
+    0x0001e890   0x00000048   Code   RO        25223    i.RTC1_IRQHandler   BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/common_rtc.o
+    0x0001e8d8   0x00000020   Code   RO        24672    i.SPI1_TWI1_IRQHandler  BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_11/drivers_nrf/common/nrf_drv_common.o
+    0x0001e8f8   0x00000084   Code   RO        25188    i.SWI2_IRQHandler   BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_11/softdevice/common/softdevice_handler/softdevice_handler.o
+    0x0001e97c   0x000000e8   Code   RO        23757    i.SystemInit        BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_NRF51/TARGET_MCU_NRF51822_UNIFIED/device/system_nrf51.o
+    0x0001ea64   0x0000014c   Code   RO        23884    i.UART0_IRQHandler  BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_NRF51/serial_api.o
+    0x0001ebb0   0x000000a4   Code   RO          478    i._Z11LCDTextInitv  BUILD/NRF51_DK/ARM/main.o
+    0x0001ec54   0x0000009c   Code   RO          480    i._Z11showCounterv  BUILD/NRF51_DK/ARM/main.o
+    0x0001ecf0   0x00000024   Code   RO         4591    i._Z11signalEventv  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/targets/TARGET_NORDIC/TARGET_NRF51/source/btle/btle.o
+    0x0001ed14   0x000000f4   Code   RO         4592    i._Z12btle_handlerP9ble_evt_t  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/targets/TARGET_NORDIC/TARGET_NRF51/source/btle/btle.o
+    0x0001ee08   0x00000058   Code   RO         4617    i._Z13btle_gap_initv  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/targets/TARGET_NORDIC/TARGET_NRF51/source/btle/btle_gap.o
+    0x0001ee60   0x0000038c   Code   RO          481    i._Z15bleInitCompletePN3BLE37InitializationCompleteCallbackContextE  BUILD/NRF51_DK/ARM/main.o
+    0x0001f1ec   0x0000009c   Code   RO          482    i._Z15showSensorValuev  BUILD/NRF51_DK/ARM/main.o
+    0x0001f288   0x00000008   Code   RO         4593    i._Z16sys_evt_dispatchj  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/targets/TARGET_NORDIC/TARGET_NRF51/source/btle/btle.o
+    0x0001f290   0x00000070   Code   RO         5492    i._Z17createBLEInstancev  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/targets/TARGET_NORDIC/TARGET_NRF51/source/nRF5xn.o
+    0x0001f300   0x00000054   Code   RO        23003    i._Z17default_idle_hookv  BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/mbed_rtx_idle.o
+    0x0001f354   0x0000000c   Code   RO          483    i._Z18connectionCallbackPKN3Gap26ConnectionCallbackParams_tE  BUILD/NRF51_DK/ARM/main.o
+    0x0001f360   0x00000034   Code   RO          484    i._Z21disconnectionCallbackPKN3Gap29DisconnectionCallbackParams_tE  BUILD/NRF51_DK/ARM/main.o
+    0x0001f394   0x00000108   Code   RO          485    i._Z21onDataWrittenCallbackPK23GattWriteCallbackParams  BUILD/NRF51_DK/ARM/main.o
+    0x0001f49c   0x00000074   Code   RO          486    i._Z27scheduleBleEventsProcessingPN3BLE32OnEventsToProcessCallbackContextE  BUILD/NRF51_DK/ARM/main.o
+    0x0001f510   0x00000108   Code   RO          487    i._Z6updatev        BUILD/NRF51_DK/ARM/main.o
+    0x0001f618   0x0000009c   Code   RO        22379    i._Z7get_fhci       BUILD/NRF51_DK/ARM/mbed-os/platform/mbed_retarget.o
+    0x0001f6b4   0x00000154   Code   RO          488    i._Z7scanPinv       BUILD/NRF51_DK/ARM/main.o
+    0x0001f808   0x000000a0   Code   RO          489    i._Z8showBattv      BUILD/NRF51_DK/ARM/main.o
+    0x0001f8a8   0x0000009c   Code   RO          490    i._Z8showFlowv      BUILD/NRF51_DK/ARM/main.o
+    0x0001f944   0x0000009c   Code   RO          491    i._Z8showLitrv      BUILD/NRF51_DK/ARM/main.o
+    0x0001f9e0   0x0000008c   Code   RO         4918    i._ZN10GattServer11handleEventEN16GattServerEvents11gattEvent_eEt  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/targets/TARGET_NORDIC/TARGET_NRF51/source/nRF5xGattServer.o
+    0x0001fa6c   0x000001a6   Code   RO           17    i._ZN12Adafruit_GFX10charBoundsEcPsS0_S0_S0_S0_S0_  BUILD/NRF51_DK/ARM/Adafruit-GFX-Library-Mbed_Compatible/Adafruit_GFX.o
+    0x0001fc12   0x00000002   Code   RO           25    i._ZN12Adafruit_GFX10startWriteEv  BUILD/NRF51_DK/ARM/Adafruit-GFX-Library-Mbed_Compatible/Adafruit_GFX.o
+    0x0001fc14   0x0000000c   Code   RO           26    i._ZN12Adafruit_GFX10writePixelEsst  BUILD/NRF51_DK/ARM/Adafruit-GFX-Library-Mbed_Compatible/Adafruit_GFX.o
+    0x0001fc20   0x0000000a   Code   RO           29    i._ZN12Adafruit_GFX11setTextSizeEh  BUILD/NRF51_DK/ARM/Adafruit-GFX-Library-Mbed_Compatible/Adafruit_GFX.o
+    0x0001fc2a   0x00000006   Code   RO           33    i._ZN12Adafruit_GFX12setTextColorEt  BUILD/NRF51_DK/ARM/Adafruit-GFX-Library-Mbed_Compatible/Adafruit_GFX.o
+    0x0001fc30   0x00000038   Code   RO           36    i._ZN12Adafruit_GFX13drawFastVLineEssst  BUILD/NRF51_DK/ARM/Adafruit-GFX-Library-Mbed_Compatible/Adafruit_GFX.o
+    0x0001fc68   0x0000006c   Code   RO           38    i._ZN12Adafruit_GFX13drawRGBBitmapEssPKtss  BUILD/NRF51_DK/ARM/Adafruit-GFX-Library-Mbed_Compatible/Adafruit_GFX.o
+    0x0001fcd4   0x000000a2   Code   RO           43    i._ZN12Adafruit_GFX13getTextBoundsEPcssPsS1_PtS2_  BUILD/NRF51_DK/ARM/Adafruit-GFX-Library-Mbed_Compatible/Adafruit_GFX.o
+    0x0001fd76   0x00000016   Code   RO           45    i._ZN12Adafruit_GFX13writeFillRectEsssst  BUILD/NRF51_DK/ARM/Adafruit-GFX-Library-Mbed_Compatible/Adafruit_GFX.o
+    0x0001fd8c   0x0000000e   Code   RO           47    i._ZN12Adafruit_GFX14writeFastVLineEssst  BUILD/NRF51_DK/ARM/Adafruit-GFX-Library-Mbed_Compatible/Adafruit_GFX.o
+    0x0001fd9a   0x00000020   Code   RO           55    i._ZN12Adafruit_GFX5printEPc  BUILD/NRF51_DK/ARM/Adafruit-GFX-Library-Mbed_Compatible/Adafruit_GFX.o
+    0x0001fdba   0x00000102   Code   RO           56    i._ZN12Adafruit_GFX5writeEh  BUILD/NRF51_DK/ARM/Adafruit-GFX-Library-Mbed_Compatible/Adafruit_GFX.o
+    0x0001febc   0x0000001e   Code   RO           57    i._ZN12Adafruit_GFX7setFontEPK7GFXfont  BUILD/NRF51_DK/ARM/Adafruit-GFX-Library-Mbed_Compatible/Adafruit_GFX.o
+    0x0001feda   0x00000002   PAD
+    0x0001fedc   0x00000280   Code   RO           58    i._ZN12Adafruit_GFX8drawCharEsshtth  BUILD/NRF51_DK/ARM/Adafruit-GFX-Library-Mbed_Compatible/Adafruit_GFX.o
+    0x0002015c   0x00000002   Code   RO           61    i._ZN12Adafruit_GFX8endWriteEv  BUILD/NRF51_DK/ARM/Adafruit-GFX-Library-Mbed_Compatible/Adafruit_GFX.o
+    0x0002015e   0x0000003e   Code   RO           62    i._ZN12Adafruit_GFX8fillRectEsssst  BUILD/NRF51_DK/ARM/Adafruit-GFX-Library-Mbed_Compatible/Adafruit_GFX.o
+    0x0002019c   0x000000b8   Code   RO           64    i._ZN12Adafruit_GFX9writeLineEsssst  BUILD/NRF51_DK/ARM/Adafruit-GFX-Library-Mbed_Compatible/Adafruit_GFX.o
+    0x00020254   0x0000002c   Code   RO           65    i._ZN12Adafruit_GFXC2Ess  BUILD/NRF51_DK/ARM/Adafruit-GFX-Library-Mbed_Compatible/Adafruit_GFX.o
+    0x00020280   0x00000006   Code   RO        22623    i._ZN12DirectSerial4seekEli  BUILD/NRF51_DK/ARM/mbed-os/platform/mbed_retarget.o
+    0x00020286   0x00000006   Code   RO        22626    i._ZN12DirectSerial4sizeEv  BUILD/NRF51_DK/ARM/mbed-os/platform/mbed_retarget.o
+    0x0002028c   0x00000004   Code   RO        22632    i._ZN12DirectSerial5closeEv  BUILD/NRF51_DK/ARM/mbed-os/platform/mbed_retarget.o
+    0x00020290   0x00000024   Code   RO        22381    i._ZN12DirectSerial5writeEPKvj  BUILD/NRF51_DK/ARM/mbed-os/platform/mbed_retarget.o
+    0x000202b4   0x00000004   Code   RO        22629    i._ZN12DirectSerial6isattyEv  BUILD/NRF51_DK/ARM/mbed-os/platform/mbed_retarget.o
+    0x000202b8   0x00000002   Code   RO        22617    i._ZN12DirectSerialD1Ev  BUILD/NRF51_DK/ARM/mbed-os/platform/mbed_retarget.o
+    0x000202ba   0x00000002   PAD
+    0x000202bc   0x0000002c   Code   RO          453    i._ZN12TFT_ILI9163CC1E7PinNameS0_S0_S0_S0_S0_  BUILD/NRF51_DK/ARM/TFT_ILI9163C/TFT_ILI9163C_GENERIC.o
+    0x000202e8   0x0000000c   Code   RO          464    i._ZN12TFT_ILI9163CD1Ev  BUILD/NRF51_DK/ARM/TFT_ILI9163C/TFT_ILI9163C_GENERIC.o
+    0x000202f4   0x0000000e   Code   RO         2732    i._ZN15BLEInstanceBase21signalEventsToProcessEj  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/BLEInstanceBase.o
+    0x00020302   0x00000002   Code   RO         2734    i._ZN15BLEInstanceBaseD2Ev  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/BLEInstanceBase.o
+    0x00020304   0x00000002   Code   RO         5611    i._ZN15SecurityManager12EventHandler10signingKeyEjPKN3ble12byte_array_tILj16EEEb  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/targets/TARGET_NORDIC/TARGET_NRF51/source/nRF5xn.o
+    0x00020306   0x00000002   Code   RO         5587    i._ZN15SecurityManager12EventHandler14pairingRequestEj  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/targets/TARGET_NORDIC/TARGET_NRF51/source/nRF5xn.o
+    0x00020308   0x00000002   Code   RO         5596    i._ZN15SecurityManager12EventHandler14passkeyRequestEj  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/targets/TARGET_NORDIC/TARGET_NRF51/source/nRF5xn.o
+    0x0002030a   0x00000002   Code   RO         5593    i._ZN15SecurityManager12EventHandler19confirmationRequestEj  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/targets/TARGET_NORDIC/TARGET_NRF51/source/nRF5xn.o
+    0x0002030c   0x00000002   Code   RO         5599    i._ZN15SecurityManager12EventHandler20keypressNotificationEjNS_10Keypress_tE  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/targets/TARGET_NORDIC/TARGET_NRF51/source/nRF5xn.o
+    0x0002030e   0x00000002   Code   RO         5590    i._ZN15SecurityManager12EventHandler22whitelistFromBondTableEPN3Gap11Whitelist_tE  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/targets/TARGET_NORDIC/TARGET_NRF51/source/nRF5xn.o
+    0x00020310   0x00000002   Code   RO         5602    i._ZN15SecurityManager12EventHandler23legacyPairingOobRequestEj  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/targets/TARGET_NORDIC/TARGET_NRF51/source/nRF5xn.o
+    0x00020312   0x00000012   Code   RO         5614    i._ZN15SecurityManager18LegacyEventHandler13pairingResultEjNS_26SecurityCompletionStatus_tE  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/targets/TARGET_NORDIC/TARGET_NRF51/source/nRF5xn.o
+    0x00020324   0x00000012   Code   RO         5620    i._ZN15SecurityManager18LegacyEventHandler14passkeyDisplayEjPKh  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/targets/TARGET_NORDIC/TARGET_NRF51/source/nRF5xn.o
+    0x00020336   0x0000002e   Code   RO         5617    i._ZN15SecurityManager18LegacyEventHandler20linkEncryptionResultEjN3ble17link_encryption_tE  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/targets/TARGET_NORDIC/TARGET_NRF51/source/nRF5xn.o
+    0x00020364   0x00000004   Code   RO         4418    i._ZN15SecurityManager21requestAuthenticationEj  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/generic/GenericSecurityManager.o
+    0x00020368   0x00000334   Code   RO         4857    i._ZN15nRF5xGattServer10addServiceER11GattService  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/targets/TARGET_NORDIC/TARGET_NRF51/source/nRF5xGattServer.o
+    0x0002069c   0x00000598   Code   RO         4858    i._ZN15nRF5xGattServer10hwCallbackEPK9ble_evt_t  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/targets/TARGET_NORDIC/TARGET_NRF51/source/nRF5xGattServer.o
+    0x00020c34   0x00000094   Code   RO         4861    i._ZN15nRF5xGattServer17areUpdatesEnabledEjtPb  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/targets/TARGET_NORDIC/TARGET_NRF51/source/nRF5xGattServer.o
+    0x00020cc8   0x0000004a   Code   RO         4864    i._ZN15nRF5xGattServer23releaseLongWriteRequestEt  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/targets/TARGET_NORDIC/TARGET_NRF51/source/nRF5xGattServer.o
+    0x00020d12   0x00000036   Code   RO         4866    i._ZN15nRF5xGattServer4readEjtPhPt  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/targets/TARGET_NORDIC/TARGET_NRF51/source/nRF5xGattServer.o
+    0x00020d48   0x000001ec   Code   RO         4869    i._ZN15nRF5xGattServer5writeEjtPKhtb  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/targets/TARGET_NORDIC/TARGET_NRF51/source/nRF5xGattServer.o
+    0x00020f34   0x00000020   Code   RO         4870    i._ZN15nRF5xGattServer5writeEtPKhtb  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/targets/TARGET_NORDIC/TARGET_NRF51/source/nRF5xGattServer.o
+    0x00020f54   0x000000b0   Code   RO         5564    i._ZN15nRF5xGattServerC1Ev  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/targets/TARGET_NORDIC/TARGET_NRF51/source/nRF5xn.o
+    0x00021004   0x00000060   Code   RO         2828    i._ZN17GapScanningParamsC1Etttb  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/GapScanningParams.o
+    0x00021064   0x0000003c   Code   RO          294    i._ZN17TFT_ILI9163C_BASE10fillScreenEt  BUILD/NRF51_DK/ARM/TFT_ILI9163C/TFT_ILI9163C_BASE.o
+    0x000210a0   0x0000000a   Code   RO          295    i._ZN17TFT_ILI9163C_BASE10setBitrateEj  BUILD/NRF51_DK/ARM/TFT_ILI9163C/TFT_ILI9163C_BASE.o
+    0x000210aa   0x00000002   PAD
+    0x000210ac   0x00000030   Code   RO          410    i._ZN17TFT_ILI9163C_BASE11selectSlaveEv  BUILD/NRF51_DK/ARM/TFT_ILI9163C/TFT_ILI9163C_BASE.o
+    0x000210dc   0x00000030   Code   RO          419    i._ZN17TFT_ILI9163C_BASE11setDataModeEv  BUILD/NRF51_DK/ARM/TFT_ILI9163C/TFT_ILI9163C_BASE.o
+    0x0002110c   0x0000006e   Code   RO          298    i._ZN17TFT_ILI9163C_BASE11setRotationEh  BUILD/NRF51_DK/ARM/TFT_ILI9163C/TFT_ILI9163C_BASE.o
+    0x0002117a   0x00000034   Code   RO          299    i._ZN17TFT_ILI9163C_BASE11writedata16Et  BUILD/NRF51_DK/ARM/TFT_ILI9163C/TFT_ILI9163C_BASE.o
+    0x000211ae   0x00000046   Code   RO          300    i._ZN17TFT_ILI9163C_BASE11writedata32Ett  BUILD/NRF51_DK/ARM/TFT_ILI9163C/TFT_ILI9163C_BASE.o
+    0x000211f4   0x0000002a   Code   RO          301    i._ZN17TFT_ILI9163C_BASE12writecommandEh  BUILD/NRF51_DK/ARM/TFT_ILI9163C/TFT_ILI9163C_BASE.o
+    0x0002121e   0x00000002   PAD
+    0x00021220   0x00000030   Code   RO          413    i._ZN17TFT_ILI9163C_BASE13deselectSlaveEv  BUILD/NRF51_DK/ARM/TFT_ILI9163C/TFT_ILI9163C_BASE.o
+    0x00021250   0x00000046   Code   RO          303    i._ZN17TFT_ILI9163C_BASE13drawFastVLineEssst  BUILD/NRF51_DK/ARM/TFT_ILI9163C/TFT_ILI9163C_BASE.o
+    0x00021296   0x0000004a   Code   RO          305    i._ZN17TFT_ILI9163C_BASE13setAddrWindowEtttt  BUILD/NRF51_DK/ARM/TFT_ILI9163C/TFT_ILI9163C_BASE.o
+    0x000212e0   0x00000030   Code   RO          416    i._ZN17TFT_ILI9163C_BASE14setCommandModeEv  BUILD/NRF51_DK/ARM/TFT_ILI9163C/TFT_ILI9163C_BASE.o
+    0x00021310   0x0000004a   Code   RO          307    i._ZN17TFT_ILI9163C_BASE16writedata16burstEti  BUILD/NRF51_DK/ARM/TFT_ILI9163C/TFT_ILI9163C_BASE.o
+    0x0002135a   0x00000002   PAD
+    0x0002135c   0x0000010c   Code   RO          309    i._ZN17TFT_ILI9163C_BASE5beginEv  BUILD/NRF51_DK/ARM/TFT_ILI9163C/TFT_ILI9163C_BASE.o
+    0x00021468   0x000002fe   Code   RO          313    i._ZN17TFT_ILI9163C_BASE8chipInitEv  BUILD/NRF51_DK/ARM/TFT_ILI9163C/TFT_ILI9163C_BASE.o
+    0x00021766   0x00000058   Code   RO          314    i._ZN17TFT_ILI9163C_BASE8fillRectEsssst  BUILD/NRF51_DK/ARM/TFT_ILI9163C/TFT_ILI9163C_BASE.o
+    0x000217be   0x0000003e   Code   RO          315    i._ZN17TFT_ILI9163C_BASE9drawPixelEsst  BUILD/NRF51_DK/ARM/TFT_ILI9163C/TFT_ILI9163C_BASE.o
+    0x000217fc   0x0000002e   Code   RO          317    i._ZN17TFT_ILI9163C_BASE9setCursorEss  BUILD/NRF51_DK/ARM/TFT_ILI9163C/TFT_ILI9163C_BASE.o
+    0x0002182a   0x0000002a   Code   RO          319    i._ZN17TFT_ILI9163C_BASE9writedataEh  BUILD/NRF51_DK/ARM/TFT_ILI9163C/TFT_ILI9163C_BASE.o
+    0x00021854   0x00000064   Code   RO          321    i._ZN17TFT_ILI9163C_BASEC1E7PinNameS0_S0_S0_S0_S0_  BUILD/NRF51_DK/ARM/TFT_ILI9163C/TFT_ILI9163C_BASE.o
+    0x000218b8   0x000001ca   Code   RO          542    i._ZN18GapAdvertisingData7addDataENS_10DataType_tEPKhh  BUILD/NRF51_DK/ARM/main.o
+    0x00021a82   0x00000002   PAD
+    0x00021a84   0x000000b0   Code   RO          548    i._ZN18GattCharacteristicC1ERK4UUIDPhtthPP13GattAttributejb  BUILD/NRF51_DK/ARM/main.o
+    0x00021b34   0x0000004c   Code   RO         2642    i._ZN3BLE10gattServerEv  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/BLE.o
+    0x00021b80   0x00000054   Code   RO         2647    i._ZN3BLE13processEventsEv  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/BLE.o
+    0x00021bd4   0x0000004c   Code   RO         2649    i._ZN3BLE17onEventsToProcessERK26FunctionPointerWithContextIPNS_32OnEventsToProcessCallbackContextEE  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/BLE.o
+    0x00021c20   0x0000002a   Code   RO         2650    i._ZN3BLE18initImplementationE26FunctionPointerWithContextIPNS_37InitializationCompleteCallbackContextEE  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/BLE.o
+    0x00021c4a   0x00000002   PAD
+    0x00021c4c   0x0000003c   Code   RO         2651    i._ZN3BLE21signalEventsToProcessEv  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/BLE.o
+    0x00021c88   0x0000004c   Code   RO         2652    i._ZN3BLE3gapEv     BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/BLE.o
+    0x00021cd4   0x000000a4   Code   RO         2654    i._ZN3BLE8InstanceEj  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/BLE.o
+    0x00021d78   0x00000004   Code   RO         3390    i._ZN3Gap15stopAdvertisingEv  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/generic/GenericGap.o
+    0x00021d7c   0x00000062   Code   RO         2784    i._ZN3Gap22processConnectionEventEjNS_6Role_tEN3ble19peer_address_type_tEPKhN11BLEProtocol11AddressType4TypeES4_PKNS_18ConnectionParams_tES4_S4_  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/Gap.o
+    0x00021dde   0x000000e2   Code   RO         2787    i._ZN3Gap26ConnectionCallbackParams_tC1EjNS_6Role_tEN3ble19peer_address_type_tEPKhN11BLEProtocol11AddressType4TypeES5_PKNS_18ConnectionParams_tES5_S5_  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/Gap.o
+    0x00021ec0   0x000000a0   Code   RO         2789    i._ZN3Gap26processAdvertisementReportEPKhabN20GapAdvertisingParams17AdvertisingType_tEhS1_N3ble19peer_address_type_tE  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/Gap.o
+    0x00021f60   0x000000be   Code   RO         4648    i._ZN3ble3pal6vendor6nordic13CryptoToolbox2ahERKNS_9ArrayViewIKhLi16EEERKNS4_IS5_Li3EEENS4_IhLi3EEE  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/targets/TARGET_NORDIC/TARGET_NRF51/source/nRF5xCrypto.o
+    0x0002201e   0x00000002   PAD
+    0x00022020   0x0000005c   Code   RO         4927    i._ZN3ble3pal6vendor6nordic15nRF5xGattClient10get_clientEv  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/targets/TARGET_NORDIC/TARGET_NRF51/source/nRF5xPalGattClient.o
+    0x0002207c   0x0000001e   Code   RO         5095    i._ZN3ble3pal6vendor6nordic15nRF5xGattClient13GattProcedure5abortEv  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/targets/TARGET_NORDIC/TARGET_NRF51/source/nRF5xPalGattClient.o
+    0x0002209a   0x0000002e   Code   RO         5091    i._ZN3ble3pal6vendor6nordic15nRF5xGattClient13GattProcedure9terminateERKNS0_16AttServerMessageE  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/targets/TARGET_NORDIC/TARGET_NRF51/source/nRF5xPalGattClient.o
+    0x000220c8   0x0000006e   Code   RO         4931    i._ZN3ble3pal6vendor6nordic15nRF5xGattClient13handle_eventsEPK9ble_evt_t  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/targets/TARGET_NORDIC/TARGET_NRF51/source/nRF5xPalGattClient.o
+    0x00022136   0x00000064   Code   RO         4933    i._ZN3ble3pal6vendor6nordic15nRF5xGattClient16handle_hvx_eventERK9ble_evt_t  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/targets/TARGET_NORDIC/TARGET_NRF51/source/nRF5xPalGattClient.o
+    0x0002219a   0x00000030   Code   RO         4934    i._ZN3ble3pal6vendor6nordic15nRF5xGattClient16remove_procedureEPNS3_13GattProcedureE  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/targets/TARGET_NORDIC/TARGET_NRF51/source/nRF5xPalGattClient.o
+    0x000221ca   0x00000018   Code   RO         4945    i._ZN3ble3pal6vendor6nordic15nRF5xGattClient29handle_connection_terminationEj  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/targets/TARGET_NORDIC/TARGET_NRF51/source/nRF5xPalGattClient.o
+    0x000221e2   0x00000002   PAD
+    0x000221e4   0x00000068   Code   RO         4955    i._ZN3ble3pal6vendor6nordic15nRF5xGattClientD1Ev  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/targets/TARGET_NORDIC/TARGET_NRF51/source/nRF5xPalGattClient.o
+    0x0002224c   0x000004c0   Code   RO         5321    i._ZN3ble3pal6vendor6nordic20nRF5xSecurityManager10sm_handlerEPK9ble_evt_t  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/targets/TARGET_NORDIC/TARGET_NRF51/source/nRF5xPalSecurityManager.o
+    0x0002270c   0x000000a6   Code   RO         5322    i._ZN3ble3pal6vendor6nordic20nRF5xSecurityManager11make_keysetERNS3_23pairing_control_block_tENS0_15KeyDistributionES6_  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/targets/TARGET_NORDIC/TARGET_NRF51/source/nRF5xPalSecurityManager.o
+    0x000227b2   0x00000004   Code   RO         5324    i._ZN3ble3pal6vendor6nordic20nRF5xSecurityManager13set_peer_csrkEjRKNS_12byte_array_tILj16EEEbj  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/targets/TARGET_NORDIC/TARGET_NRF51/source/nRF5xPalSecurityManager.o
+    0x000227b6   0x00000066   Code   RO         5325    i._ZN3ble3pal6vendor6nordic20nRF5xSecurityManager14cancel_pairingEjNS_17pairing_failure_tE  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/targets/TARGET_NORDIC/TARGET_NRF51/source/nRF5xPalSecurityManager.o
+    0x0002281c   0x00000054   Code   RO         5328    i._ZN3ble3pal6vendor6nordic20nRF5xSecurityManager15resolve_addressERKNS_9address_tE  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/targets/TARGET_NORDIC/TARGET_NRF51/source/nRF5xPalSecurityManager.o
+    0x00022870   0x00000004   Code   RO         5329    i._ZN3ble3pal6vendor6nordic20nRF5xSecurityManager16remove_peer_csrkEj  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/targets/TARGET_NORDIC/TARGET_NRF51/source/nRF5xPalSecurityManager.o
+    0x00022874   0x00000058   Code   RO         5330    i._ZN3ble3pal6vendor6nordic20nRF5xSecurityManager17enable_encryptionEjRKNS_12byte_array_tILj16EEERKNS4_ILj8EEERKNS4_ILj2EEEb  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/targets/TARGET_NORDIC/TARGET_NRF51/source/nRF5xPalSecurityManager.o
+    0x000228cc   0x00000046   Code   RO         5331    i._ZN3ble3pal6vendor6nordic20nRF5xSecurityManager17enable_encryptionEjRKNS_12byte_array_tILj16EEEb  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/targets/TARGET_NORDIC/TARGET_NRF51/source/nRF5xPalSecurityManager.o
+    0x00022912   0x00000012   Code   RO         5333    i._ZN3ble3pal6vendor6nordic20nRF5xSecurityManager17set_ltk_not_foundEj  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/targets/TARGET_NORDIC/TARGET_NRF51/source/nRF5xPalSecurityManager.o
+    0x00022924   0x0000000c   Code   RO         5334    i._ZN3ble3pal6vendor6nordic20nRF5xSecurityManager18get_resolving_listEv  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/targets/TARGET_NORDIC/TARGET_NRF51/source/nRF5xPalSecurityManager.o
+    0x00022930   0x00000034   Code   RO         5335    i._ZN3ble3pal6vendor6nordic20nRF5xSecurityManager18release_pairing_cbEPNS3_23pairing_control_block_tE  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/targets/TARGET_NORDIC/TARGET_NRF51/source/nRF5xPalSecurityManager.o
+    0x00022964   0x00000008   Code   RO         5338    i._ZN3ble3pal6vendor6nordic20nRF5xSecurityManager20clear_resolving_listEv  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/targets/TARGET_NORDIC/TARGET_NRF51/source/nRF5xPalSecurityManager.o
+    0x0002296c   0x00000074   Code   RO         5340    i._ZN3ble3pal6vendor6nordic20nRF5xSecurityManager20get_security_managerEv  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/targets/TARGET_NORDIC/TARGET_NRF51/source/nRF5xPalSecurityManager.o
+    0x000229e0   0x000000c8   Code   RO         5341    i._ZN3ble3pal6vendor6nordic20nRF5xSecurityManager20make_security_paramsEbNS0_18AuthenticationMaskENS0_15KeyDistributionES5_  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/targets/TARGET_NORDIC/TARGET_NRF51/source/nRF5xPalSecurityManager.o
+    0x00022aa8   0x00000074   Code   RO         5342    i._ZN3ble3pal6vendor6nordic20nRF5xSecurityManager20send_pairing_requestEjbNS0_18AuthenticationMaskENS0_15KeyDistributionES5_  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/targets/TARGET_NORDIC/TARGET_NRF51/source/nRF5xPalSecurityManager.o
+    0x00022b1c   0x00000098   Code   RO         5344    i._ZN3ble3pal6vendor6nordic20nRF5xSecurityManager21send_pairing_responseEjbNS0_18AuthenticationMaskENS0_15KeyDistributionES5_  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/targets/TARGET_NORDIC/TARGET_NRF51/source/nRF5xPalSecurityManager.o
+    0x00022bb4   0x00000022   Code   RO         5480    i._ZN3ble3pal6vendor6nordic20nRF5xSecurityManager22resolving_list_entry_tC1Ev  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/targets/TARGET_NORDIC/TARGET_NRF51/source/nRF5xPalSecurityManager.o
+    0x00022bd6   0x0000004e   Code   RO         5346    i._ZN3ble3pal6vendor6nordic20nRF5xSecurityManager22slave_security_requestEjNS0_18AuthenticationMaskE  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/targets/TARGET_NORDIC/TARGET_NRF51/source/nRF5xPalSecurityManager.o
+    0x00022c24   0x00000038   Code   RO         5351    i._ZN3ble3pal6vendor6nordic20nRF5xSecurityManager28add_device_to_resolving_listENS0_31advertising_peer_address_type_tERKNS_9address_tERKNS_12byte_array_tILj16EEE  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/targets/TARGET_NORDIC/TARGET_NRF51/source/nRF5xPalSecurityManager.o
+    0x00022c5c   0x0000000e   Code   RO         5356    i._ZN3ble3pal6vendor6nordic20nRF5xSecurityManager32legacy_pairing_oob_request_replyEjRKNS_12byte_array_tILj16EEE  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/targets/TARGET_NORDIC/TARGET_NRF51/source/nRF5xPalSecurityManager.o
+    0x00022c6a   0x00000046   Code   RO         5361    i._ZN3ble3pal6vendor6nordic20nRF5xSecurityManager7set_ltkEjRKNS_12byte_array_tILj16EEEbb  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/targets/TARGET_NORDIC/TARGET_NRF51/source/nRF5xPalSecurityManager.o
+    0x00022cb0   0x00000024   Code   RO         5366    i._ZN3ble3pal6vendor6nordic20nRF5xSecurityManagerD1Ev  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/targets/TARGET_NORDIC/TARGET_NRF51/source/nRF5xPalSecurityManager.o
+    0x00022cd4   0x00000050   Code   RO         5367    i._ZN3ble3pal6vendor6nordic51_GLOBAL__N__27_nRF5xPalSecurityManager_cpp_d33f8cbe16convert_sd_errorEj  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/targets/TARGET_NORDIC/TARGET_NRF51/source/nRF5xPalSecurityManager.o
+    0x00022d24   0x0000001c   Code   RO         3517    i._ZN3ble7generic17GenericGattClient22on_transaction_timeoutEj  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/generic/GenericGattClient.o
+    0x00022d40   0x000000e4   Code   RO         3520    i._ZN3ble7generic17GenericGattClient26on_server_message_receivedEjRKNS_3pal16AttServerMessageE  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/generic/GenericGattClient.o
+    0x00022e24   0x000000fc   Code   RO         3525    i._ZN3ble7generic17GenericGattClientC1EPNS_3pal10GattClientE  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/generic/GenericGattClient.o
+    0x00022f20   0x00000064   Code   RO         3842    i._ZN3ble7generic22GenericSecurityManager10set_ltk_cbEPvPKNS0_19SecurityEntryKeys_tE  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/generic/GenericSecurityManager.o
+    0x00022f84   0x00000058   Code   RO         3850    i._ZN3ble7generic22GenericSecurityManager14ControlBlock_tC1Ev  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/generic/GenericSecurityManager.o
+    0x00022fdc   0x000000b6   Code   RO         3854    i._ZN3ble7generic22GenericSecurityManager14requestPairingEj  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/generic/GenericSecurityManager.o
+    0x00023092   0x00000002   PAD
+    0x00023094   0x00000058   Code   RO         3855    i._ZN3ble7generic22GenericSecurityManager14return_csrk_cbEPvPKNS0_22SecurityEntrySigning_tE  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/generic/GenericSecurityManager.o
+    0x000230ec   0x000000c8   Code   RO         3857    i._ZN3ble7generic22GenericSecurityManager15on_disconnectedEjN3Gap21DisconnectionReason_tE  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/generic/GenericSecurityManager.o
+    0x000231b4   0x00000038   Code   RO         3863    i._ZN3ble7generic22GenericSecurityManager16set_peer_csrk_cbEPvPKNS0_22SecurityEntrySigning_tE  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/generic/GenericSecurityManager.o
+    0x000231ec   0x00000090   Code   RO         3864    i._ZN3ble7generic22GenericSecurityManager17enable_encryptionEj  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/generic/GenericSecurityManager.o
+    0x0002327c   0x00000076   Code   RO         3866    i._ZN3ble7generic22GenericSecurityManager17get_control_blockEPv  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/generic/GenericSecurityManager.o
+    0x000232f2   0x00000076   Code   RO         3868    i._ZN3ble7generic22GenericSecurityManager17get_control_blockEj  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/generic/GenericSecurityManager.o
+    0x00023368   0x000000b4   Code   RO         3873    i._ZN3ble7generic22GenericSecurityManager18on_passkey_displayEjj  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/generic/GenericSecurityManager.o
+    0x0002341c   0x00000024   Code   RO         3875    i._ZN3ble7generic22GenericSecurityManager18set_mitm_performedEjb  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/generic/GenericSecurityManager.o
+    0x00023440   0x000000a0   Code   RO         3879    i._ZN3ble7generic22GenericSecurityManager19update_oob_presenceEj  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/generic/GenericSecurityManager.o
+    0x000234e0   0x000000c0   Code   RO         3880    i._ZN3ble7generic22GenericSecurityManager20acceptPairingRequestEj  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/generic/GenericSecurityManager.o
+    0x000235a0   0x00000014   Code   RO         3881    i._ZN3ble7generic22GenericSecurityManager20cancelPairingRequestEj  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/generic/GenericSecurityManager.o
+    0x000235b4   0x0000007c   Code   RO         3882    i._ZN3ble7generic22GenericSecurityManager20enable_encryption_cbEPvPKNS0_19SecurityEntryKeys_tE  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/generic/GenericSecurityManager.o
+    0x00023630   0x00000074   Code   RO         3888    i._ZN3ble7generic22GenericSecurityManager21acquire_control_blockEj  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/generic/GenericSecurityManager.o
+    0x000236a4   0x00000070   Code   RO         3890    i._ZN3ble7generic22GenericSecurityManager21requestAuthenticationEj  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/generic/GenericSecurityManager.o
+    0x00023714   0x00000040   Code   RO         3891    i._ZN3ble7generic22GenericSecurityManager22slave_security_requestEj  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/generic/GenericSecurityManager.o
+    0x00023754   0x00000078   Code   RO         3904    i._ZN3ble7generic22GenericSecurityManager25on_link_encryption_resultEjNS_17link_encryption_tE  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/generic/GenericSecurityManager.o
+    0x000237cc   0x00000044   Code   RO         3907    i._ZN3ble7generic22GenericSecurityManager26on_identity_list_retrievedERNS_9ArrayViewINS0_23SecurityEntryIdentity_tELin1EEEj  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/generic/GenericSecurityManager.o
+    0x00023810   0x00000020   Code   RO         3910    i._ZN3ble7generic22GenericSecurityManager27on_security_entry_retrievedEPvPKNS0_23SecurityEntryIdentity_tE  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/generic/GenericSecurityManager.o
+    0x00023830   0x000000ac   Code   RO         3915    i._ZN3ble7generic22GenericSecurityManager29on_legacy_pairing_oob_requestEj  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/generic/GenericSecurityManager.o
+    0x000238dc   0x0000005c   Code   RO         4287    i._ZN3ble7generic22GenericSecurityManagerD1Ev  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/generic/GenericSecurityManager.o
+    0x00023938   0x00000024   Code   RO         4623    i._ZN41_GLOBAL__N__17_custom_helper_cpp_43193eef8set_permER23ble_gap_conn_sec_mode_tN3ble26att_security_requirement_tE  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/targets/TARGET_NORDIC/TARGET_NRF51/source/btle/custom/custom_helper.o
+    0x0002395c   0x00000032   Code   RO        22026    i._ZN4mbed10FileHandle4sizeEv  BUILD/NRF51_DK/ARM/mbed-os/platform/FileHandle.o
+    0x0002398e   0x00000004   Code   RO        22043    i._ZN4mbed10FileHandle6isattyEv  BUILD/NRF51_DK/ARM/mbed-os/platform/FileHandle.o
+    0x00023992   0x0000000e   Code   RO         2104    i._ZN4mbed10SerialBase10_base_putcEi  BUILD/NRF51_DK/ARM/mbed-os/drivers/SerialBase.o
+    0x000239a0   0x00000014   Code   RO         2110    i._ZN4mbed10SerialBase12_irq_handlerEj9SerialIrq  BUILD/NRF51_DK/ARM/mbed-os/drivers/SerialBase.o
+    0x000239b4   0x00000050   Code   RO         2114    i._ZN4mbed10SerialBase24interrupt_handler_asynchEv  BUILD/NRF51_DK/ARM/mbed-os/drivers/SerialBase.o
+    0x00023a04   0x00000002   Code   RO         2116    i._ZN4mbed10SerialBase4lockEv  BUILD/NRF51_DK/ARM/mbed-os/drivers/SerialBase.o
+    0x00023a06   0x00000002   Code   RO         2123    i._ZN4mbed10SerialBase6unlockEv  BUILD/NRF51_DK/ARM/mbed-os/drivers/SerialBase.o
+    0x00023a08   0x00000104   Code   RO         2126    i._ZN4mbed10SerialBaseC1E7PinNameS1_i  BUILD/NRF51_DK/ARM/mbed-os/drivers/SerialBase.o
+    0x00023b0c   0x00000128   Code   RO         2128    i._ZN4mbed10SerialBaseD1Ev  BUILD/NRF51_DK/ARM/mbed-os/drivers/SerialBase.o
+    0x00023c34   0x00000012   Code   RO         2298    i._ZN4mbed10TimerEvent15insert_absoluteEy  BUILD/NRF51_DK/ARM/mbed-os/drivers/TimerEvent.o
+    0x00023c46   0x00000006   Code   RO         2299    i._ZN4mbed10TimerEvent3irqEj  BUILD/NRF51_DK/ARM/mbed-os/drivers/TimerEvent.o
+    0x00023c4c   0x00000010   Code   RO         2301    i._ZN4mbed10TimerEvent6removeEv  BUILD/NRF51_DK/ARM/mbed-os/drivers/TimerEvent.o
+    0x00023c5c   0x00000028   Code   RO         2302    i._ZN4mbed10TimerEventC2EPK13ticker_data_t  BUILD/NRF51_DK/ARM/mbed-os/drivers/TimerEvent.o
+    0x00023c84   0x0000002c   Code   RO         2303    i._ZN4mbed10TimerEventC2Ev  BUILD/NRF51_DK/ARM/mbed-os/drivers/TimerEvent.o
+    0x00023cb0   0x0000001c   Code   RO         2305    i._ZN4mbed10TimerEventD2Ev  BUILD/NRF51_DK/ARM/mbed-os/drivers/TimerEvent.o
+    0x00023ccc   0x00000084   Code   RO        22385    i._ZN4mbed10bind_to_fdEPNS_10FileHandleE  BUILD/NRF51_DK/ARM/mbed-os/platform/mbed_retarget.o
+    0x00023d50   0x0000003c   Code   RO        22386    i._ZN4mbed17remove_filehandleEPNS_10FileHandleE  BUILD/NRF51_DK/ARM/mbed-os/platform/mbed_retarget.o
+    0x00023d8c   0x00000004   Code   RO        22387    i._ZN4mbed21mbed_override_consoleEi  BUILD/NRF51_DK/ARM/mbed-os/platform/mbed_retarget.o
+    0x00023d90   0x0000000a   Code   RO        22388    i._ZN4mbed26mbed_set_unbuffered_streamEPSt6__FILE  BUILD/NRF51_DK/ARM/mbed-os/platform/mbed_retarget.o
+    0x00023d9a   0x00000004   Code   RO        22389    i._ZN4mbed28mbed_target_override_consoleEi  BUILD/NRF51_DK/ARM/mbed-os/platform/mbed_retarget.o
+    0x00023d9e   0x00000002   PAD
+    0x00023da0   0x00000058   Code   RO         1919    i._ZN4mbed3SPI18irq_handler_asynchEv  BUILD/NRF51_DK/ARM/mbed-os/drivers/SPI.o
+    0x00023df8   0x0000005c   Code   RO         1923    i._ZN4mbed3SPI4lockEv  BUILD/NRF51_DK/ARM/mbed-os/drivers/SPI.o
+    0x00023e54   0x00000048   Code   RO         1925    i._ZN4mbed3SPI5writeEi  BUILD/NRF51_DK/ARM/mbed-os/drivers/SPI.o
+    0x00023e9c   0x0000004c   Code   RO         1927    i._ZN4mbed3SPI6formatEii  BUILD/NRF51_DK/ARM/mbed-os/drivers/SPI.o
+    0x00023ee8   0x0000005c   Code   RO         1928    i._ZN4mbed3SPI6unlockEv  BUILD/NRF51_DK/ARM/mbed-os/drivers/SPI.o
+    0x00023f44   0x00000048   Code   RO         1931    i._ZN4mbed3SPI9frequencyEi  BUILD/NRF51_DK/ARM/mbed-os/drivers/SPI.o
+    0x00023f8c   0x00000090   Code   RO         1932    i._ZN4mbed3SPIC1E7PinNameS1_S1_S1_  BUILD/NRF51_DK/ARM/mbed-os/drivers/SPI.o
+    0x0002401c   0x00000030   Code   RO         1934    i._ZN4mbed3SPID1Ev  BUILD/NRF51_DK/ARM/mbed-os/drivers/SPI.o
+    0x0002404c   0x0000000a   Code   RO         2023    i._ZN4mbed6Serial4lockEv  BUILD/NRF51_DK/ARM/mbed-os/drivers/Serial.o
+    0x00024056   0x0000000a   Code   RO         2026    i._ZN4mbed6Serial6unlockEv  BUILD/NRF51_DK/ARM/mbed-os/drivers/Serial.o
+    0x00024060   0x0000003c   Code   RO         2027    i._ZN4mbed6SerialC1E7PinNameS1_PKci  BUILD/NRF51_DK/ARM/mbed-os/drivers/Serial.o
+    0x0002409c   0x00000034   Code   RO          578    i._ZN4mbed6SerialD1Ev  BUILD/NRF51_DK/ARM/main.o
+    0x000240d0   0x00000002   Code   RO        22195    i._ZN4mbed6Stream4lockEv  BUILD/NRF51_DK/ARM/mbed-os/platform/Stream.o
+    0x000240d2   0x00000004   Code   RO        22120    i._ZN4mbed6Stream4seekEli  BUILD/NRF51_DK/ARM/mbed-os/platform/Stream.o
+    0x000240d6   0x00000004   Code   RO        22121    i._ZN4mbed6Stream4sizeEv  BUILD/NRF51_DK/ARM/mbed-os/platform/Stream.o
+    0x000240da   0x00000004   Code   RO        22124    i._ZN4mbed6Stream5closeEv  BUILD/NRF51_DK/ARM/mbed-os/platform/Stream.o
+    0x000240de   0x00000036   Code   RO        22126    i._ZN4mbed6Stream5writeEPKvj  BUILD/NRF51_DK/ARM/mbed-os/platform/Stream.o
+    0x00024114   0x00000004   Code   RO        22127    i._ZN4mbed6Stream6isattyEv  BUILD/NRF51_DK/ARM/mbed-os/platform/Stream.o
+    0x00024118   0x00000002   Code   RO        22198    i._ZN4mbed6Stream6unlockEv  BUILD/NRF51_DK/ARM/mbed-os/platform/Stream.o
+    0x0002411a   0x00000002   PAD
+    0x0002411c   0x00000068   Code   RO        22132    i._ZN4mbed6StreamC2EPKc  BUILD/NRF51_DK/ARM/mbed-os/platform/Stream.o
+    0x00024184   0x00000024   Code   RO        22134    i._ZN4mbed6StreamD2Ev  BUILD/NRF51_DK/ARM/mbed-os/platform/Stream.o
+    0x000241a8   0x0000006a   Code   RO         2215    i._ZN4mbed6Ticker6detachEv  BUILD/NRF51_DK/ARM/mbed-os/drivers/Ticker.o
+    0x00024212   0x00000026   Code   RO         2216    i._ZN4mbed6Ticker7handlerEv  BUILD/NRF51_DK/ARM/mbed-os/drivers/Ticker.o
+    0x00024238   0x0000008c   Code   RO        22390    i._ZN4mbed6fdopenEPNS_10FileHandleEPKc  BUILD/NRF51_DK/ARM/mbed-os/platform/mbed_retarget.o
+    0x000242c4   0x00000058   Code   RO         2239    i._ZN4mbed7Timeout7handlerEv  BUILD/NRF51_DK/ARM/mbed-os/drivers/Timeout.o
+    0x0002431c   0x0000005c   Code   RO          614    i._ZN4mbed8AnalogIn4lockEv  BUILD/NRF51_DK/ARM/main.o
+    0x00024378   0x0000005c   Code   RO          611    i._ZN4mbed8AnalogIn6unlockEv  BUILD/NRF51_DK/ARM/main.o
+    0x000243d4   0x00000002   Code   RO          575    i._ZN4mbed8AnalogInD1Ev  BUILD/NRF51_DK/ARM/main.o
+    0x000243d6   0x00000004   Code   RO        21990    i._ZN4mbed8FileBase11getPathTypeEv  BUILD/NRF51_DK/ARM/mbed-os/platform/FileBase.o
+    0x000243da   0x00000002   PAD
+    0x000243dc   0x00000088   Code   RO        21993    i._ZN4mbed8FileBase6lookupEPKcj  BUILD/NRF51_DK/ARM/mbed-os/platform/FileBase.o
+    0x00024464   0x00000048   Code   RO        21995    i._ZN4mbed8FileBaseC1EPKcNS_8PathTypeE  BUILD/NRF51_DK/ARM/mbed-os/platform/FileBase.o
+    0x000244ac   0x00000068   Code   RO        21997    i._ZN4mbed8FileBaseD1Ev  BUILD/NRF51_DK/ARM/mbed-os/platform/FileBase.o
+    0x00024514   0x00000020   Code   RO        22052    i._ZN4mbed8FilePath10fileSystemEv  BUILD/NRF51_DK/ARM/mbed-os/platform/FilePath.o
+    0x00024534   0x00000020   Code   RO        22054    i._ZN4mbed8FilePath4fileEv  BUILD/NRF51_DK/ARM/mbed-os/platform/FilePath.o
+    0x00024554   0x0000000a   Code   RO        22055    i._ZN4mbed8FilePath6existsEv  BUILD/NRF51_DK/ARM/mbed-os/platform/FilePath.o
+    0x0002455e   0x00000018   Code   RO        22056    i._ZN4mbed8FilePath6isFileEv  BUILD/NRF51_DK/ARM/mbed-os/platform/FilePath.o
+    0x00024576   0x00000004   Code   RO        22057    i._ZN4mbed8FilePath8fileNameEv  BUILD/NRF51_DK/ARM/mbed-os/platform/FilePath.o
+    0x0002457a   0x00000002   PAD
+    0x0002457c   0x00000080   Code   RO        22058    i._ZN4mbed8FilePathC1EPKc  BUILD/NRF51_DK/ARM/mbed-os/platform/FilePath.o
+    0x000245fc   0x00000048   Code   RO        23606    i._ZN4rtos10ThisThread9sleep_forEj  BUILD/NRF51_DK/ARM/mbed-os/rtos/ThisThread.o
+    0x00024644   0x00000088   Code   RO        22795    i._ZN4rtos5Mutex11constructorEPKc  BUILD/NRF51_DK/ARM/mbed-os/rtos/Mutex.o
+    0x000246cc   0x00000044   Code   RO        22799    i._ZN4rtos5Mutex4lockEv  BUILD/NRF51_DK/ARM/mbed-os/rtos/Mutex.o
+    0x00024710   0x0000003c   Code   RO        22800    i._ZN4rtos5Mutex6unlockEv  BUILD/NRF51_DK/ARM/mbed-os/rtos/Mutex.o
+    0x0002474c   0x00000050   Code   RO        22804    i._ZN4rtos5MutexC1Ev  BUILD/NRF51_DK/ARM/mbed-os/rtos/Mutex.o
+    0x0002479c   0x0000000e   Code   RO        22805    i._ZN4rtos5MutexD1Ev  BUILD/NRF51_DK/ARM/mbed-os/rtos/Mutex.o
+    0x000247aa   0x0000001a   Code   RO        23642    i._ZN4rtos6Thread11constructorE12osPriority_tjPhPKc  BUILD/NRF51_DK/ARM/mbed-os/rtos/Thread.o
+    0x000247c4   0x00000090   Code   RO        23644    i._ZN4rtos6Thread11constructorEj12osPriority_tjPhPKc  BUILD/NRF51_DK/ARM/mbed-os/rtos/Thread.o
+    0x00024854   0x0000000a   Code   RO        23650    i._ZN4rtos6Thread4waitEj  BUILD/NRF51_DK/ARM/mbed-os/rtos/Thread.o
+    0x0002485e   0x00000002   PAD
+    0x00024860   0x00000130   Code   RO        23651    i._ZN4rtos6Thread5startEN4mbed8CallbackIFvvEEE  BUILD/NRF51_DK/ARM/mbed-os/rtos/Thread.o
+    0x00024990   0x00000048   Code   RO        23653    i._ZN4rtos6Thread6_thunkEPv  BUILD/NRF51_DK/ARM/mbed-os/rtos/Thread.o
+    0x000249d8   0x00000074   Code   RO        23658    i._ZN4rtos6ThreadD1Ev  BUILD/NRF51_DK/ARM/mbed-os/rtos/Thread.o
+    0x00024a4c   0x00000014   Code   RO        22867    i._ZN4rtos8internal8SysTimer11cancel_tickEv  BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/SysTimer.o
+    0x00024a60   0x00000040   Code   RO        22868    i._ZN4rtos8internal8SysTimer13schedule_tickEj  BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/SysTimer.o
+    0x00024aa0   0x00000006   Code   RO        22871    i._ZN4rtos8internal8SysTimer19suspend_time_passedEv  BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/SysTimer.o
+    0x00024aa6   0x00000002   PAD
+    0x00024aa8   0x00000060   Code   RO        22872    i._ZN4rtos8internal8SysTimer6resumeEv  BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/SysTimer.o
+    0x00024b08   0x00000078   Code   RO        22873    i._ZN4rtos8internal8SysTimer7handlerEv  BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/SysTimer.o
+    0x00024b80   0x00000054   Code   RO        22874    i._ZN4rtos8internal8SysTimer7suspendEj  BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/SysTimer.o
+    0x00024bd4   0x00000078   Code   RO        22877    i._ZN4rtos8internal8SysTimer9setup_irqEv  BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/SysTimer.o
+    0x00024c4c   0x00000040   Code   RO        22879    i._ZN4rtos8internal8SysTimerC1Ev  BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/SysTimer.o
+    0x00024c8c   0x00000068   Code   RO        22845    i._ZN4rtos9Semaphore11constructorEit  BUILD/NRF51_DK/ARM/mbed-os/rtos/Semaphore.o
+    0x00024cf4   0x0000000a   Code   RO        22847    i._ZN4rtos9Semaphore7releaseEv  BUILD/NRF51_DK/ARM/mbed-os/rtos/Semaphore.o
+    0x00024cfe   0x00000002   PAD
+    0x00024d00   0x00000048   Code   RO        22848    i._ZN4rtos9SemaphoreC1Ei  BUILD/NRF51_DK/ARM/mbed-os/rtos/Semaphore.o
+    0x00024d48   0x0000000e   Code   RO        22850    i._ZN4rtos9SemaphoreD1Ev  BUILD/NRF51_DK/ARM/mbed-os/rtos/Semaphore.o
+    0x00024d56   0x00000008   Code   RO         2497    i._ZN6events10EventQueue8dispatchEi  BUILD/NRF51_DK/ARM/mbed-os/events/EventQueue.o
+    0x00024d5e   0x00000026   Code   RO         2499    i._ZN6events10EventQueueC1EjPh  BUILD/NRF51_DK/ARM/mbed-os/events/EventQueue.o
+    0x00024d84   0x0000001c   Code   RO         2500    i._ZN6events10EventQueueD1Ev  BUILD/NRF51_DK/ARM/mbed-os/events/EventQueue.o
+    0x00024da0   0x00000022   Code   RO         5552    i._ZN6nRF5xn13getGattServerEv  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/targets/TARGET_NORDIC/TARGET_NRF51/source/nRF5xn.o
+    0x00024dc2   0x00000002   PAD
+    0x00024dc4   0x00000028   Code   RO         5495    i._ZN6nRF5xn13processEventsEv  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/targets/TARGET_NORDIC/TARGET_NRF51/source/nRF5xn.o
+    0x00024dec   0x00000006   Code   RO         5496    i._ZN6nRF5xn18getSecurityManagerEv  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/targets/TARGET_NORDIC/TARGET_NRF51/source/nRF5xn.o
+    0x00024df2   0x00000002   PAD
+    0x00024df4   0x00000064   Code   RO         5497    i._ZN6nRF5xn4initEj26FunctionPointerWithContextIPN3BLE37InitializationCompleteCallbackContextEE  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/targets/TARGET_NORDIC/TARGET_NRF51/source/nRF5xn.o
+    0x00024e58   0x00000004   Code   RO         5549    i._ZN6nRF5xn6getGapEv  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/targets/TARGET_NORDIC/TARGET_NRF51/source/nRF5xn.o
+    0x00024e5c   0x00000070   Code   RO         5498    i._ZN6nRF5xn8InstanceEj  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/targets/TARGET_NORDIC/TARGET_NRF51/source/nRF5xn.o
+    0x00024ecc   0x00000164   Code   RO         5502    i._ZN6nRF5xnD1Ev    BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/targets/TARGET_NORDIC/TARGET_NRF51/source/nRF5xn.o
+    0x00025030   0x000001a8   Code   RO         4667    i._ZN8nRF5xGap13on_connectionEjRK23ble_gap_evt_connected_t  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/targets/TARGET_NORDIC/TARGET_NRF51/source/nRF5xGap.o
+    0x000251d8   0x0000001e   Code   RO         4671    i._ZN8nRF5xGap15stopAdvertisingEv  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/targets/TARGET_NORDIC/TARGET_NRF51/source/nRF5xGap.o
+    0x000251f6   0x00000002   PAD
+    0x000251f8   0x000001ec   Code   RO         4672    i._ZN8nRF5xGap16startAdvertisingERK20GapAdvertisingParams  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/targets/TARGET_NORDIC/TARGET_NRF51/source/nRF5xGap.o
+    0x000253e4   0x00000012   Code   RO         4819    i._ZN8nRF5xGap17connection_role_tC1Ev  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/targets/TARGET_NORDIC/TARGET_NRF51/source/nRF5xGap.o
+    0x000253f6   0x0000002c   Code   RO         4673    i._ZN8nRF5xGap18setAdvertisingDataERK18GapAdvertisingDataS2_  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/targets/TARGET_NORDIC/TARGET_NRF51/source/nRF5xGap.o
+    0x00025422   0x00000008   Code   RO         4674    i._ZN8nRF5xGap19getConnectionHandleEv  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/targets/TARGET_NORDIC/TARGET_NRF51/source/nRF5xGap.o
+    0x0002542a   0x00000008   Code   RO         4675    i._ZN8nRF5xGap19setConnectionHandleEt  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/targets/TARGET_NORDIC/TARGET_NRF51/source/nRF5xGap.o
+    0x00025432   0x000000a2   Code   RO         4676    i._ZN8nRF5xGap21on_advertising_packetERK24ble_gap_evt_adv_report_t  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/targets/TARGET_NORDIC/TARGET_NRF51/source/nRF5xGap.o
+    0x000254d4   0x00000078   Code   RO         4681    i._ZN8nRF5xGap24allocate_connection_roleEjN3Gap6Role_tE  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/targets/TARGET_NORDIC/TARGET_NRF51/source/nRF5xGap.o
+    0x0002554c   0x000000ba   Code   RO         4684    i._ZN8nRF5xGap25processDisconnectionEventEjN3Gap21DisconnectionReason_tE  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/targets/TARGET_NORDIC/TARGET_NRF51/source/nRF5xGap.o
+    0x00025606   0x0000000c   Code   RO         4837    i._ZN8nRF5xGap29postRadioNotificationCallbackEv  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/targets/TARGET_NORDIC/TARGET_NRF51/source/nRF5xGap.o
+    0x00025612   0x00000072   Code   RO         4697    i._ZN8nRF5xGap8get_roleEjRN3Gap6Role_tE  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/targets/TARGET_NORDIC/TARGET_NRF51/source/nRF5xGap.o
+    0x00025684   0x00000160   Code   RO         4699    i._ZN8nRF5xGapC1Ev  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/targets/TARGET_NORDIC/TARGET_NRF51/source/nRF5xGap.o
+    0x000257e4   0x00000004   Code   RO         3381    i._ZNK3Gap25getMinAdvertisingIntervalEv  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/generic/GenericGap.o
+    0x000257e8   0x00000038   Code   RO         4957    i._ZNK3ble3pal6vendor6nordic15nRF5xGattClient13get_procedureEj  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/targets/TARGET_NORDIC/TARGET_NRF51/source/nRF5xPalGattClient.o
+    0x00025820   0x0000015c   Code   RO         5503    i._ZNK6nRF5xn18getSecurityManagerEv  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/targets/TARGET_NORDIC/TARGET_NRF51/source/nRF5xn.o
+    0x0002597c   0x00000004   Code   RO         5558    i._ZNK6nRF5xn6getGapEv  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/targets/TARGET_NORDIC/TARGET_NRF51/source/nRF5xn.o
+    0x00025980   0x00000004   Code   RO         4825    i._ZNK8nRF5xGap25getMinAdvertisingIntervalEv  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/targets/TARGET_NORDIC/TARGET_NRF51/source/nRF5xGap.o
+    0x00025984   0x00000002   Code   RO         2729    i._ZNK9SafeBool_4base7trueTagEv  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/BLE.o
+    0x00025986   0x0000000a   Code   RO         2029    i._ZThn152_N4mbed6Serial4lockEv  BUILD/NRF51_DK/ARM/mbed-os/drivers/Serial.o
+    0x00025990   0x0000000a   Code   RO         2031    i._ZThn152_N4mbed6Serial5_putcEi  BUILD/NRF51_DK/ARM/mbed-os/drivers/Serial.o
+    0x0002599a   0x0000000a   Code   RO         2032    i._ZThn152_N4mbed6Serial6unlockEv  BUILD/NRF51_DK/ARM/mbed-os/drivers/Serial.o
+    0x000259a4   0x0000007c   Code   RO         3927    i._ZThn44_N3ble7generic22GenericSecurityManager14on_ltk_requestEjRKNS_12byte_array_tILj2EEERKNS2_ILj8EEE  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/generic/GenericSecurityManager.o
+    0x00025a20   0x0000004a   Code   RO         3928    i._ZThn44_N3ble7generic22GenericSecurityManager16on_pairing_errorEjNS_17pairing_failure_tE  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/generic/GenericSecurityManager.o
+    0x00025a6a   0x00000068   Code   RO         3929    i._ZThn44_N3ble7generic22GenericSecurityManager18on_pairing_requestEjbNS_3pal18AuthenticationMaskENS2_15KeyDistributionES4_  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/generic/GenericSecurityManager.o
+    0x00025ad2   0x0000000a   Code   RO         3930    i._ZThn44_N3ble7generic22GenericSecurityManager18on_passkey_displayEjj  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/generic/GenericSecurityManager.o
+    0x00025adc   0x00000020   Code   RO         3931    i._ZThn44_N3ble7generic22GenericSecurityManager18on_passkey_requestEj  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/generic/GenericSecurityManager.o
+    0x00025afc   0x00000074   Code   RO         3932    i._ZThn44_N3ble7generic22GenericSecurityManager20on_pairing_completedEj  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/generic/GenericSecurityManager.o
+    0x00025b70   0x00000022   Code   RO         3933    i._ZThn44_N3ble7generic22GenericSecurityManager20on_pairing_timed_outEj  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/generic/GenericSecurityManager.o
+    0x00025b92   0x00000020   Code   RO         3935    i._ZThn44_N3ble7generic22GenericSecurityManager23on_confirmation_requestEj  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/generic/GenericSecurityManager.o
+    0x00025bb2   0x00000002   PAD
+    0x00025bb4   0x00000050   Code   RO         3936    i._ZThn44_N3ble7generic22GenericSecurityManager23on_keys_distributed_irkEjRKNS_12byte_array_tILj16EEE  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/generic/GenericSecurityManager.o
+    0x00025c04   0x00000060   Code   RO         3937    i._ZThn44_N3ble7generic22GenericSecurityManager23on_keys_distributed_ltkEjRKNS_12byte_array_tILj16EEE  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/generic/GenericSecurityManager.o
+    0x00025c64   0x00000024   Code   RO         3938    i._ZThn44_N3ble7generic22GenericSecurityManager24on_keypress_notificationEjN15SecurityManager10Keypress_tE  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/generic/GenericSecurityManager.o
+    0x00025c88   0x00000070   Code   RO         3939    i._ZThn44_N3ble7generic22GenericSecurityManager24on_keys_distributed_csrkEjRKNS_12byte_array_tILj16EEE  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/generic/GenericSecurityManager.o
+    0x00025cf8   0x0000000a   Code   RO         3940    i._ZThn44_N3ble7generic22GenericSecurityManager25on_link_encryption_resultEjNS_17link_encryption_tE  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/generic/GenericSecurityManager.o
+    0x00025d02   0x00000002   PAD
+    0x00025d04   0x0000008c   Code   RO         3941    i._ZThn44_N3ble7generic22GenericSecurityManager25on_slave_security_requestEjNS_3pal18AuthenticationMaskE  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/generic/GenericSecurityManager.o
+    0x00025d90   0x00000050   Code   RO         3942    i._ZThn44_N3ble7generic22GenericSecurityManager26on_keys_distributed_bdaddrEjNS_3pal31advertising_peer_address_type_tERKNS_9address_tE  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/generic/GenericSecurityManager.o
+    0x00025de0   0x00000044   Code   RO         3943    i._ZThn44_N3ble7generic22GenericSecurityManager29on_keys_distributed_ediv_randEjRKNS_12byte_array_tILj2EEERKNS2_ILj8EEE  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/generic/GenericSecurityManager.o
+    0x00025e24   0x00000050   Code   RO         3944    i._ZThn44_N3ble7generic22GenericSecurityManager29on_keys_distributed_local_ltkEjRKNS_12byte_array_tILj16EEE  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/generic/GenericSecurityManager.o
+    0x00025e74   0x0000000a   Code   RO         3945    i._ZThn44_N3ble7generic22GenericSecurityManager29on_legacy_pairing_oob_requestEj  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/generic/GenericSecurityManager.o
+    0x00025e7e   0x00000002   PAD
+    0x00025e80   0x00000044   Code   RO         3947    i._ZThn44_N3ble7generic22GenericSecurityManager35on_keys_distributed_local_ediv_randEjRKNS_12byte_array_tILj2EEERKNS2_ILj8EEE  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/generic/GenericSecurityManager.o
+    0x00025ec4   0x0000000c   Code   RO         3950    i._ZThn44_N3ble7generic22GenericSecurityManager36on_link_encryption_request_timed_outEj  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/generic/GenericSecurityManager.o
+    0x00025ed0   0x00000120   Code   RO         3951    i._ZThn48_N3ble7generic22GenericSecurityManager12on_connectedEjN3Gap6Role_tENS_19peer_address_type_tEPKhN11BLEProtocol11AddressType4TypeES6_PKNS2_18ConnectionParams_tE  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/generic/GenericSecurityManager.o
+    0x00025ff0   0x0000000a   Code   RO         3952    i._ZThn48_N3ble7generic22GenericSecurityManager15on_disconnectedEjN3Gap21DisconnectionReason_tE  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/generic/GenericSecurityManager.o
+    0x00025ffa   0x00000008   Code   RO        22394    i._ZdaPv            BUILD/NRF51_DK/ARM/mbed-os/platform/mbed_retarget.o
+    0x00026002   0x00000008   Code   RO        22395    i._ZdlPv            BUILD/NRF51_DK/ARM/mbed-os/platform/mbed_retarget.o
+    0x0002600a   0x00000002   PAD
+    0x0002600c   0x00000044   Code   RO        22396    i._Znaj             BUILD/NRF51_DK/ARM/mbed-os/platform/mbed_retarget.o
+    0x00026050   0x00000044   Code   RO        22398    i._Znwj             BUILD/NRF51_DK/ARM/mbed-os/platform/mbed_retarget.o
+    0x00026094   0x00000008   Code   RO        22399    i._ZnwjRKSt9nothrow_t  BUILD/NRF51_DK/ARM/mbed-os/platform/mbed_retarget.o
+    0x0002609c   0x00000032   Code   RO        19102    i.__ARM_common_ll_muluu  BUILD/NRF51_DK/ARM/mbed-os/features/netsocket/nsapi_dns.o
+    0x000260ce   0x00000010   Code   RO         2818    i.__ARM_common_memclr1_6  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/Gap.o
+    0x000260de   0x0000000a   Code   RO         2815    i.__ARM_common_memclr2_6  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/Gap.o
+    0x000260e8   0x0000001a   Code   RO         2821    i.__ARM_common_memcpy1_6  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/Gap.o
+    0x00026102   0x00000022   Code   RO          748    i.__ARM_common_memcpy1_8  BUILD/NRF51_DK/ARM/mbed-os/components/802.15.4_RF/atmel-rf-driver/source/NanostackRfPhyAtmel.o
+    0x00026124   0x0000000e   Code   RO         4852    i.__ARM_common_memcpy2_6  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/targets/TARGET_NORDIC/TARGET_NRF51/source/nRF5xGap.o
+    0x00026132   0x00000002   PAD
+    0x00026134   0x0000002c   Code   RO        26207    i.__ARM_fpclassify  C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\m_ps.l(fpclassify.o)
+    0x00026160   0x00000004   Code   RO        22400    i.__aeabi_atexit    BUILD/NRF51_DK/ARM/mbed-os/platform/mbed_retarget.o
+    0x00026164   0x00000022   Code   RO        25759    i.__aeabi_vec_ctor_nocookie_nodtor  C:\Keil_v5\ARM\ARMCC\bin\..\lib\cpplib\cpprt_p.l(aeabi_vec_ctor_nocookie_nodtor.o)
+    0x00026186   0x00000002   PAD
+    0x00026188   0x000000ac   Code   RO        22404    i.__cxa_guard_acquire  BUILD/NRF51_DK/ARM/mbed-os/platform/mbed_retarget.o
+    0x00026234   0x000000a0   Code   RO        22405    i.__cxa_guard_release  BUILD/NRF51_DK/ARM/mbed-os/platform/mbed_retarget.o
+    0x000262d4   0x0000000a   Code   RO        25643    i.__cxa_pure_virtual  C:\Keil_v5\ARM\ARMCC\bin\..\lib\cpplib\cpprt_p.l(pure_virt.o)
+    0x000262de   0x00000002   PAD
+    0x000262e0   0x0000004c   Code   RO        22934    i.__rt_entry        BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/TOOLCHAIN_ARM_STD/mbed_boot_arm_std.o
+    0x0002632c   0x0000001c   Code   RO         3103    i.__sti___14_GenericGap_cpp_555dcd4e  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/generic/GenericGap.o
+    0x00026348   0x000001bc   Code   RO          492    i.__sti___8_main_cpp_tft  BUILD/NRF51_DK/ARM/main.o
+    0x00026504   0x00000064   Code   RO        22935    i.__user_perthread_libspace  BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/TOOLCHAIN_ARM_STD/mbed_boot_arm_std.o
+    0x00026568   0x0000000e   Code   RO        25492    i._is_digit         C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(__printf_wp.o)
+    0x00026576   0x00000002   PAD
+    0x00026578   0x00000030   Code   RO        22936    i._mutex_acquire    BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/TOOLCHAIN_ARM_STD/mbed_boot_arm_std.o
+    0x000265a8   0x00000094   Code   RO        22937    i._mutex_free       BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/TOOLCHAIN_ARM_STD/mbed_boot_arm_std.o
+    0x0002663c   0x000000b8   Code   RO        22938    i._mutex_initialize  BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/TOOLCHAIN_ARM_STD/mbed_boot_arm_std.o
+    0x000266f4   0x0000002c   Code   RO        22939    i._mutex_release    BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/TOOLCHAIN_ARM_STD/mbed_boot_arm_std.o
+    0x00026720   0x00000008   Code   RO        23217    i._platform_post_stackheap_init  BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_lib.o
+    0x00026728   0x00000040   Code   RO        22408    i._sys_close        BUILD/NRF51_DK/ARM/mbed-os/platform/mbed_retarget.o
+    0x00026768   0x00000030   Code   RO        22411    i._sys_flen         BUILD/NRF51_DK/ARM/mbed-os/platform/mbed_retarget.o
+    0x00026798   0x0000002e   Code   RO        22412    i._sys_istty        BUILD/NRF51_DK/ARM/mbed-os/platform/mbed_retarget.o
+    0x000267c6   0x00000002   PAD
+    0x000267c8   0x000000c0   Code   RO        22413    i._sys_open         BUILD/NRF51_DK/ARM/mbed-os/platform/mbed_retarget.o
+    0x00026888   0x00000038   Code   RO        22415    i._sys_seek         BUILD/NRF51_DK/ARM/mbed-os/platform/mbed_retarget.o
+    0x000268c0   0x0000006c   Code   RO        22416    i._sys_write        BUILD/NRF51_DK/ARM/mbed-os/platform/mbed_retarget.o
+    0x0002692c   0x0000009c   Code   RO        23733    i.analogin_init     BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_NRF51/TARGET_MCU_NRF51822_UNIFIED/analogin_api.o
+    0x000269c8   0x0000005c   Code   RO        23735    i.analogin_read_u16  BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_NRF51/TARGET_MCU_NRF51822_UNIFIED/analogin_api.o
+    0x00026a24   0x0000001c   Code   RO        25139    i.app_error_fault_handler  BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_11/libraries/util/app_error_weak.o
+    0x00026a40   0x0000001c   Code   RO        25130    i.app_error_handler_bare  BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_11/libraries/util/app_error.o
+    0x00026a5c   0x00000040   Code   RO        25145    i.app_util_critical_region_enter  BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_11/libraries/util/app_util_platform.o
+    0x00026a9c   0x0000002c   Code   RO        25146    i.app_util_critical_region_exit  BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_11/libraries/util/app_util_platform.o
+    0x00026ac8   0x00000024   Code   RO         4595    i.assert_nrf_callback  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/targets/TARGET_NORDIC/TARGET_NRF51/source/btle/btle.o
+    0x00026aec   0x0000010c   Code   RO        24106    i.ble_conn_state_on_ble_evt  BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_11/ble/common/ble_conn_state.o
+    0x00026bf8   0x000000a0   Code   RO         4596    i.btle_init         BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/targets/TARGET_NORDIC/TARGET_NRF51/source/btle/btle.o
+    0x00026c98   0x00000030   Code   RO        25224    i.common_rtc_free   BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/common_rtc.o
+    0x00026cc8   0x00000074   Code   RO        25225    i.common_rtc_init   BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/common_rtc.o
+    0x00026d3c   0x0000005c   Code   RO        25227    i.common_rtc_set_interrupt  BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/common_rtc.o
+    0x00026d98   0x0000000c   Code   RO        22256    i.core_util_are_interrupts_enabled  BUILD/NRF51_DK/ARM/mbed-os/platform/mbed_critical.o
+    0x00026da4   0x00000034   Code   RO        22262    i.core_util_atomic_decr_u16  BUILD/NRF51_DK/ARM/mbed-os/platform/mbed_critical.o
+    0x00026dd8   0x00000034   Code   RO        22266    i.core_util_atomic_incr_u16  BUILD/NRF51_DK/ARM/mbed-os/platform/mbed_critical.o
+    0x00026e0c   0x0000007c   Code   RO        22269    i.core_util_critical_section_enter  BUILD/NRF51_DK/ARM/mbed-os/platform/mbed_critical.o
+    0x00026e88   0x00000024   Code   RO        22270    i.core_util_critical_section_exit  BUILD/NRF51_DK/ARM/mbed-os/platform/mbed_critical.o
+    0x00026eac   0x0000000c   Code   RO        22272    i.core_util_is_isr_active  BUILD/NRF51_DK/ARM/mbed-os/platform/mbed_critical.o
+    0x00026eb8   0x000000e6   Code   RO         4624    i.custom_add_in_characteristic  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/targets/TARGET_NORDIC/TARGET_NRF51/source/btle/custom/custom_helper.o
+    0x00026f9e   0x0000005a   Code   RO         4625    i.custom_add_in_descriptor  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/targets/TARGET_NORDIC/TARGET_NRF51/source/btle/custom/custom_helper.o
+    0x00026ff8   0x00000110   Code   RO         4627    i.custom_convert_to_nordic_uuid  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/targets/TARGET_NORDIC/TARGET_NRF51/source/btle/custom/custom_helper.o
+    0x00027108   0x00000084   Code   RO         2525    i.equeue_alloc      BUILD/NRF51_DK/ARM/mbed-os/events/equeue/equeue.o
+    0x0002718c   0x00000074   Code   RO         2535    i.equeue_create     BUILD/NRF51_DK/ARM/mbed-os/events/equeue/equeue.o
+    0x00027200   0x0000005c   Code   RO         2536    i.equeue_create_inplace  BUILD/NRF51_DK/ARM/mbed-os/events/equeue/equeue.o
+    0x0002725c   0x00000056   Code   RO         2538    i.equeue_destroy    BUILD/NRF51_DK/ARM/mbed-os/events/equeue/equeue.o
+    0x000272b2   0x00000252   Code   RO         2539    i.equeue_dispatch   BUILD/NRF51_DK/ARM/mbed-os/events/equeue/equeue.o
+    0x00027504   0x000000aa   Code   RO         2540    i.equeue_enqueue    BUILD/NRF51_DK/ARM/mbed-os/events/equeue/equeue.o
+    0x000275ae   0x00000006   Code   RO         2541    i.equeue_event_delay  BUILD/NRF51_DK/ARM/mbed-os/events/equeue/equeue.o
+    0x000275b4   0x00000006   Code   RO         2542    i.equeue_event_dtor  BUILD/NRF51_DK/ARM/mbed-os/events/equeue/equeue.o
+    0x000275ba   0x00000006   Code   RO         2543    i.equeue_event_period  BUILD/NRF51_DK/ARM/mbed-os/events/equeue/equeue.o
+    0x000275c0   0x00000004   Code   RO         2570    i.equeue_mutex_create  BUILD/NRF51_DK/ARM/mbed-os/events/equeue/equeue_mbed.o
+    0x000275c4   0x00000002   Code   RO         2571    i.equeue_mutex_destroy  BUILD/NRF51_DK/ARM/mbed-os/events/equeue/equeue_mbed.o
+    0x000275c6   0x00000008   Code   RO         2572    i.equeue_mutex_lock  BUILD/NRF51_DK/ARM/mbed-os/events/equeue/equeue_mbed.o
+    0x000275ce   0x00000008   Code   RO         2573    i.equeue_mutex_unlock  BUILD/NRF51_DK/ARM/mbed-os/events/equeue/equeue_mbed.o
+    0x000275d6   0x0000002e   Code   RO         2544    i.equeue_post       BUILD/NRF51_DK/ARM/mbed-os/events/equeue/equeue.o
+    0x00027604   0x0000002e   Code   RO         2574    i.equeue_sema_create  BUILD/NRF51_DK/ARM/mbed-os/events/equeue/equeue_mbed.o
+    0x00027632   0x0000000a   Code   RO         2575    i.equeue_sema_destroy  BUILD/NRF51_DK/ARM/mbed-os/events/equeue/equeue_mbed.o
+    0x0002763c   0x0000000c   Code   RO         2576    i.equeue_sema_signal  BUILD/NRF51_DK/ARM/mbed-os/events/equeue/equeue_mbed.o
+    0x00027648   0x0000001e   Code   RO         2577    i.equeue_sema_wait  BUILD/NRF51_DK/ARM/mbed-os/events/equeue/equeue_mbed.o
+    0x00027666   0x00000008   Code   RO         2578    i.equeue_tick       BUILD/NRF51_DK/ARM/mbed-os/events/equeue/equeue_mbed.o
+    0x0002766e   0x00000002   PAD
+    0x00027670   0x00000064   Code   RO        22295    i.error             BUILD/NRF51_DK/ARM/mbed-os/platform/mbed_error.o
+    0x000276d4   0x0000000a   Code   RO        22420    i.exit              BUILD/NRF51_DK/ARM/mbed-os/platform/mbed_retarget.o
+    0x000276de   0x00000002   PAD
+    0x000276e0   0x000000ac   Code   RO        25052    i.fs_erase          BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_11/libraries/fstorage/fstorage.o
+    0x0002778c   0x0000000a   Code   RO        25008    i.fs_event_handler  BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_11/libraries/fds/fds.o
+    0x00027796   0x00000002   PAD
+    0x00027798   0x000000b0   Code   RO        25055    i.fs_store          BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_11/libraries/fstorage/fstorage.o
+    0x00027848   0x000001ac   Code   RO        25056    i.fs_sys_event_handler  BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_11/libraries/fstorage/fstorage.o
+    0x000279f4   0x00000070   Code   RO        25009    i.gc_record_find_next  BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_11/libraries/fds/fds.o
+    0x00027a64   0x00000008   Code   RO        21779    i.get_lp_ticker_data  BUILD/NRF51_DK/ARM/mbed-os/hal/mbed_lp_ticker_api.o
+    0x00027a6c   0x00000008   Code   RO        21868    i.get_us_ticker_data  BUILD/NRF51_DK/ARM/mbed-os/hal/mbed_us_ticker_api.o
+    0x00027a74   0x000000c0   Code   RO        25240    i.gpio_apply_config  BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/gpio_api.o
+    0x00027b34   0x000000b4   Code   RO        25241    i.gpio_dir          BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/gpio_api.o
+    0x00027be8   0x00000094   Code   RO        25242    i.gpio_init         BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/gpio_api.o
+    0x00027c7c   0x00000048   Code   RO        21768    i.gpio_init_out     BUILD/NRF51_DK/ARM/mbed-os/hal/mbed_gpio.o
+    0x00027cc4   0x000000a0   Code   RO        21769    i.gpio_init_out_ex  BUILD/NRF51_DK/ARM/mbed-os/hal/mbed_gpio.o
+    0x00027d64   0x000000b4   Code   RO        25248    i.gpio_mode         BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/gpio_api.o
+    0x00027e18   0x00000058   Code   RO        25250    i.gpiote_irq_handler  BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/gpio_api.o
+    0x00027e70   0x0000003c   Code   RO        23866    i.hal_critical_section_enter  BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_NRF51/nordic_critical.o
+    0x00027eac   0x00000028   Code   RO        23867    i.hal_critical_section_exit  BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_NRF51/nordic_critical.o
+    0x00027ed4   0x0000005c   Code   RO        23937    i.hal_deepsleep     BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_NRF51/sleep.o
+    0x00027f30   0x00000040   Code   RO        23938    i.hal_sleep         BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_NRF51/sleep.o
+    0x00027f70   0x000000ac   Code   RO        22296    i.handle_error      BUILD/NRF51_DK/ARM/mbed-os/platform/mbed_error.o
+    0x0002801c   0x00000128   Code   RO        21837    i.initialize        BUILD/NRF51_DK/ARM/mbed-os/hal/mbed_ticker_api.o
+    0x00028144   0x00000074   Code   RO        25189    i.intern_softdevice_events_execute  BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_11/softdevice/common/softdevice_handler/softdevice_handler.o
+    0x000281b8   0x00000070   Code   RO        23885    i.internal_set_hwfc  BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_NRF51/serial_api.o
+    0x00028228   0x000000a8   Code   RO        24883    i.irq_handler_for_instance_1  BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_11/drivers_nrf/spi_master/nrf_drv_spi.o
+    0x000282d0   0x00000068   Code   RO        24902    i.irq_handler_for_instance_1  BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_11/drivers_nrf/spi_slave/nrf_drv_spis.o
+    0x00028338   0x0000000c   Code   RO        25268    i.lp_ticker_clear_interrupt  BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/lp_ticker.o
+    0x00028344   0x00000010   Code   RO        25269    i.lp_ticker_disable_interrupt  BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/lp_ticker.o
+    0x00028354   0x00000020   Code   RO        25270    i.lp_ticker_fire_interrupt  BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/lp_ticker.o
+    0x00028374   0x00000008   Code   RO        25271    i.lp_ticker_free    BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/lp_ticker.o
+    0x0002837c   0x00000008   Code   RO        25272    i.lp_ticker_get_info  BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/lp_ticker.o
+    0x00028384   0x00000008   Code   RO        25273    i.lp_ticker_init    BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/lp_ticker.o
+    0x0002838c   0x00000018   Code   RO        21780    i.lp_ticker_irq_handler  BUILD/NRF51_DK/ARM/mbed-os/hal/mbed_lp_ticker_api.o
+    0x000283a4   0x0000000c   Code   RO        25274    i.lp_ticker_read    BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/lp_ticker.o
+    0x000283b0   0x0000000e   Code   RO        25275    i.lp_ticker_set_interrupt  BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/lp_ticker.o
+    0x000283be   0x00000002   PAD
+    0x000283c0   0x0000011c   Code   RO          493    i.main              BUILD/NRF51_DK/ARM/main.o
+    0x000284dc   0x0000001c   Code   RO        23945    i.master_event_handler_1  BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_NRF51/spi_api.o
+    0x000284f8   0x00000054   Code   RO        22240    i.mbed_assert_internal  BUILD/NRF51_DK/ARM/mbed-os/platform/mbed_assert.o
+    0x0002854c   0x0000010c   Code   RO        22246    i.mbed_die          BUILD/NRF51_DK/ARM/mbed-os/platform/mbed_board.o
+    0x00028658   0x00000048   Code   RO        22298    i.mbed_error        BUILD/NRF51_DK/ARM/mbed-os/platform/mbed_error.o
+    0x000286a0   0x00000058   Code   RO        22247    i.mbed_error_printf  BUILD/NRF51_DK/ARM/mbed-os/platform/mbed_board.o
+    0x000286f8   0x00000050   Code   RO        22248    i.mbed_error_vfprintf  BUILD/NRF51_DK/ARM/mbed-os/platform/mbed_board.o
+    0x00028748   0x00000110   Code   RO        22924    i.mbed_fault_handler  BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/TARGET_CORTEX_M/mbed_rtx_fault_handler.o
+    0x00028858   0x00000004   Code   RO        25228    i.mbed_get_m0_tick_irqn  BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/common_rtc.o
+    0x0002885c   0x0000000c   Code   RO        22955    i.mbed_init         BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/mbed_boot.o
+    0x00028868   0x00000002   Code   RO        22956    i.mbed_main         BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/mbed_boot.o
+    0x0002886a   0x00000008   Code   RO        22971    i.mbed_rtos_init    BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/mbed_rtos_rtx.o
+    0x00028872   0x00000002   PAD
+    0x00028874   0x000000e0   Code   RO        22972    i.mbed_rtos_start   BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/mbed_rtos_rtx.o
+    0x00028954   0x00000002   Code   RO        22957    i.mbed_sdk_init     BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/mbed_boot.o
+    0x00028956   0x00000010   Code   RO        22958    i.mbed_start        BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/mbed_boot.o
+    0x00028966   0x00000002   PAD
+    0x00028968   0x0000001c   Code   RO        22940    i.mbed_toolchain_init  BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/TOOLCHAIN_ARM_STD/mbed_boot_arm_std.o
+    0x00028984   0x00000040   Code   RO        23804    i.nrf_drv_adc_init  BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_NRF51/TARGET_MCU_NRF51822_UNIFIED/sdk/drivers_nrf/adc/nrf_drv_adc.o
+    0x000289c4   0x00000080   Code   RO        23807    i.nrf_drv_adc_sample_convert  BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_NRF51/TARGET_MCU_NRF51822_UNIFIED/sdk/drivers_nrf/adc/nrf_drv_adc.o
+    0x00028a44   0x00000024   Code   RO        24651    i.nrf_drv_clock_on_soc_event  BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_11/drivers_nrf/clock/nrf_drv_clock.o
+    0x00028a68   0x00000080   Code   RO        24673    i.nrf_drv_common_irq_enable  BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_11/drivers_nrf/common/nrf_drv_common.o
+    0x00028ae8   0x0000006c   Code   RO        24674    i.nrf_drv_common_per_res_acquire  BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_11/drivers_nrf/common/nrf_drv_common.o
+    0x00028b54   0x00000028   Code   RO        24675    i.nrf_drv_common_per_res_release  BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_11/drivers_nrf/common/nrf_drv_common.o
+    0x00028b7c   0x000000cc   Code   RO        24698    i.nrf_drv_gpiote_in_event_enable  BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_11/drivers_nrf/gpiote/nrf_drv_gpiote.o
+    0x00028c48   0x000000e8   Code   RO        24699    i.nrf_drv_gpiote_in_init  BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_11/drivers_nrf/gpiote/nrf_drv_gpiote.o
+    0x00028d30   0x000000c4   Code   RO        24701    i.nrf_drv_gpiote_in_uninit  BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_11/drivers_nrf/gpiote/nrf_drv_gpiote.o
+    0x00028df4   0x00000060   Code   RO        24702    i.nrf_drv_gpiote_init  BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_11/drivers_nrf/gpiote/nrf_drv_gpiote.o
+    0x00028e54   0x00000100   Code   RO        24705    i.nrf_drv_gpiote_out_init  BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_11/drivers_nrf/gpiote/nrf_drv_gpiote.o
+    0x00028f54   0x00000074   Code   RO        24713    i.nrf_drv_gpiote_out_uninit  BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_11/drivers_nrf/gpiote/nrf_drv_gpiote.o
+    0x00028fc8   0x00000144   Code   RO        24885    i.nrf_drv_spi_init  BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_11/drivers_nrf/spi_master/nrf_drv_spi.o
+    0x0002910c   0x0000001a   Code   RO        24886    i.nrf_drv_spi_transfer  BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_11/drivers_nrf/spi_master/nrf_drv_spi.o
+    0x00029126   0x00000002   PAD
+    0x00029128   0x00000074   Code   RO        24887    i.nrf_drv_spi_uninit  BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_11/drivers_nrf/spi_master/nrf_drv_spi.o
+    0x0002919c   0x00000168   Code   RO        24888    i.nrf_drv_spi_xfer  BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_11/drivers_nrf/spi_master/nrf_drv_spi.o
+    0x00029304   0x00000064   Code   RO        24903    i.nrf_drv_spis_buffers_set  BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_11/drivers_nrf/spi_slave/nrf_drv_spis.o
+    0x00029368   0x00000154   Code   RO        24904    i.nrf_drv_spis_init  BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_11/drivers_nrf/spi_slave/nrf_drv_spis.o
+    0x000294bc   0x00000064   Code   RO        24905    i.nrf_drv_spis_uninit  BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_11/drivers_nrf/spi_slave/nrf_drv_spis.o
+    0x00029520   0x0000001c   Code   RO        23877    i.nrf_reloc_vector_table  BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_NRF51/reloc_vector_table.o
+    0x0002953c   0x0000010c   Code   RO        22429    i.open              BUILD/NRF51_DK/ARM/mbed-os/platform/mbed_retarget.o
+    0x00029648   0x0000002c   Code   RO        23085    i.osDelay           BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_delay.o
+    0x00029674   0x0000002c   Code   RO        23098    i.osEventFlagsDelete  BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_evflags.o
+    0x000296a0   0x0000002c   Code   RO        23101    i.osEventFlagsNew   BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_evflags.o
+    0x000296cc   0x00000050   Code   RO        23102    i.osEventFlagsSet   BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_evflags.o
+    0x0002971c   0x00000094   Code   RO        23103    i.osEventFlagsWait  BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_evflags.o
+    0x000297b0   0x00000034   Code   RO        23156    i.osKernelGetState  BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_kernel.o
+    0x000297e4   0x00000028   Code   RO        23159    i.osKernelGetTickCount  BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_kernel.o
+    0x0002980c   0x00000030   Code   RO        23161    i.osKernelInitialize  BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_kernel.o
+    0x0002983c   0x00000028   Code   RO        23164    i.osKernelResume    BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_kernel.o
+    0x00029864   0x0000002c   Code   RO        23165    i.osKernelStart     BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_kernel.o
+    0x00029890   0x00000028   Code   RO        23166    i.osKernelSuspend   BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_kernel.o
+    0x000298b8   0x000000b4   Code   RO        23300    i.osMessageQueueGet  BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_msgqueue.o
+    0x0002996c   0x0000002c   Code   RO        23306    i.osMessageQueueNew  BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_msgqueue.o
+    0x00029998   0x00000078   Code   RO        23307    i.osMessageQueuePut  BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_msgqueue.o
+    0x00029a10   0x0000002c   Code   RO        23346    i.osMutexAcquire    BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_mutex.o
+    0x00029a3c   0x0000002c   Code   RO        23347    i.osMutexDelete     BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_mutex.o
+    0x00029a68   0x0000002c   Code   RO        23350    i.osMutexNew        BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_mutex.o
+    0x00029a94   0x0000002c   Code   RO        23351    i.osMutexRelease    BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_mutex.o
+    0x00029ac0   0x00000198   Code   RO        22983    i.osRtxErrorNotify  BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/mbed_rtx_handlers.o
+    0x00029c58   0x0000007a   Code   RO        23104    i.osRtxEventFlagsPostProcess  BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_evflags.o
+    0x00029cd2   0x00000006   Code   RO        22984    i.osRtxIdleThread   BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/mbed_rtx_handlers.o
+    0x00029cd8   0x00000002   Code   RO        23218    i.osRtxKernelPreInit  BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_lib.o
+    0x00029cda   0x00000072   Code   RO        23240    i.osRtxMemoryAlloc  BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_memory.o
+    0x00029d4c   0x0000004c   Code   RO        23241    i.osRtxMemoryFree   BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_memory.o
+    0x00029d98   0x00000032   Code   RO        23242    i.osRtxMemoryInit   BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_memory.o
+    0x00029dca   0x00000024   Code   RO        23259    i.osRtxMemoryPoolAlloc  BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_mempool.o
+    0x00029dee   0x00000032   Code   RO        23260    i.osRtxMemoryPoolFree  BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_mempool.o
+    0x00029e20   0x00000060   Code   RO        23261    i.osRtxMemoryPoolInit  BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_mempool.o
+    0x00029e80   0x000000d6   Code   RO        23309    i.osRtxMessageQueuePostProcess  BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_msgqueue.o
+    0x00029f56   0x0000003c   Code   RO        23352    i.osRtxMutexOwnerRelease  BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_mutex.o
+    0x00029f92   0x00000002   PAD
+    0x00029f94   0x00000084   Code   RO        23406    i.osRtxPendSV_Handler  BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_system.o
+    0x0002a018   0x0000006c   Code   RO        23407    i.osRtxPostProcess  BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_system.o
+    0x0002a084   0x00000036   Code   RO        23376    i.osRtxSemaphorePostProcess  BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_semaphore.o
+    0x0002a0ba   0x00000002   PAD
+    0x0002a0bc   0x0000006c   Code   RO        23416    i.osRtxThreadDelayRemove  BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_thread.o
+    0x0002a128   0x0000007c   Code   RO        23417    i.osRtxThreadDelayTick  BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_thread.o
+    0x0002a1a4   0x000000e8   Code   RO        23418    i.osRtxThreadDispatch  BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_thread.o
+    0x0002a28c   0x00000050   Code   RO        23419    i.osRtxThreadFree   BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_thread.o
+    0x0002a2dc   0x0000001a   Code   RO        23420    i.osRtxThreadListGet  BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_thread.o
+    0x0002a2f6   0x00000030   Code   RO        23421    i.osRtxThreadListPut  BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_thread.o
+    0x0002a326   0x0000001a   Code   RO        23422    i.osRtxThreadListRemove  BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_thread.o
+    0x0002a340   0x00000054   Code   RO        23423    i.osRtxThreadListSort  BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_thread.o
+    0x0002a394   0x00000066   Code   RO        23424    i.osRtxThreadPostProcess  BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_thread.o
+    0x0002a3fa   0x00000002   PAD
+    0x0002a3fc   0x00000038   Code   RO        23425    i.osRtxThreadReadyPut  BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_thread.o
+    0x0002a434   0x00000006   Code   RO        23426    i.osRtxThreadRegPtr  BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_thread.o
+    0x0002a43a   0x00000002   PAD
+    0x0002a43c   0x0000002c   Code   RO        23427    i.osRtxThreadStackCheck  BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_thread.o
+    0x0002a468   0x00000054   Code   RO        23428    i.osRtxThreadStartup  BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_thread.o
+    0x0002a4bc   0x00000014   Code   RO        23429    i.osRtxThreadSwitch  BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_thread.o
+    0x0002a4d0   0x000000a8   Code   RO        23430    i.osRtxThreadWaitEnter  BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_thread.o
+    0x0002a578   0x00000054   Code   RO        23431    i.osRtxThreadWaitExit  BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_thread.o
+    0x0002a5cc   0x00000074   Code   RO        23408    i.osRtxTick_Handler  BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_system.o
+    0x0002a640   0x00000048   Code   RO        23536    i.osRtxTimerThread  BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_timer.o
+    0x0002a688   0x0000008c   Code   RO        23537    i.osRtxTimerTick    BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_timer.o
+    0x0002a714   0x0000002c   Code   RO        23378    i.osSemaphoreDelete  BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_semaphore.o
+    0x0002a740   0x0000002c   Code   RO        23381    i.osSemaphoreNew    BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_semaphore.o
+    0x0002a76c   0x0000006c   Code   RO        23382    i.osSemaphoreRelease  BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_semaphore.o
+    0x0002a7d8   0x00000018   Code   RO        23434    i.osThreadExit      BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_thread.o
+    0x0002a7f0   0x00000028   Code   RO        23440    i.osThreadGetId     BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_thread.o
+    0x0002a818   0x0000002c   Code   RO        23447    i.osThreadNew       BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_thread.o
+    0x0002a844   0x00000034   Code   RO        23451    i.osThreadTerminate  BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_thread.o
+    0x0002a878   0x00000064   Code   RO        21799    i.pinmap_function   BUILD/NRF51_DK/ARM/mbed-os/hal/mbed_pinmap_common.o
+    0x0002a8dc   0x00000064   Code   RO        21801    i.pinmap_peripheral  BUILD/NRF51_DK/ARM/mbed-os/hal/mbed_pinmap_common.o
+    0x0002a940   0x00000104   Code   RO        22925    i.print_context_info  BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/TARGET_CORTEX_M/mbed_rtx_fault_handler.o
+    0x0002aa44   0x00000194   Code   RO        22307    i.print_error_report  BUILD/NRF51_DK/ARM/mbed-os/platform/mbed_error.o
+    0x0002abd8   0x000005c0   Code   RO        25011    i.queue_process     BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_11/libraries/fds/fds.o
+    0x0002b198   0x000000ac   Code   RO        25057    i.queue_process     BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_11/libraries/fstorage/fstorage.o
+    0x0002b244   0x00000120   Code   RO        25012    i.record_find       BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_11/libraries/fds/fds.o
+    0x0002b364   0x00000120   Code   RO        25013    i.record_find_by_desc  BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_11/libraries/fds/fds.o
+    0x0002b484   0x0000005c   Code   RO        25014    i.record_find_next  BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_11/libraries/fds/fds.o
+    0x0002b4e0   0x0000000c   Code   RO        23005    i.rtos_idle_loop    BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/mbed_rtx_idle.o
+    0x0002b4ec   0x00000150   Code   RO        21838    i.schedule_interrupt  BUILD/NRF51_DK/ARM/mbed-os/hal/mbed_ticker_api.o
+    0x0002b63c   0x00000074   Code   RO        25172    i.sdk_mapped_flags_bulk_update_by_key  BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_11/libraries/util/sdk_mapped_flags.o
+    0x0002b6b0   0x00000048   Code   RO        25173    i.sdk_mapped_flags_first_key_index_get  BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_11/libraries/util/sdk_mapped_flags.o
+    0x0002b6f8   0x00000064   Code   RO        25175    i.sdk_mapped_flags_key_list_get  BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_11/libraries/util/sdk_mapped_flags.o
+    0x0002b75c   0x0000006a   Code   RO        25177    i.sdk_mapped_flags_update_by_key  BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_11/libraries/util/sdk_mapped_flags.o
+    0x0002b7c6   0x00000002   PAD
+    0x0002b7c8   0x00000044   Code   RO        23886    i.serial_baud       BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_NRF51/serial_api.o
+    0x0002b80c   0x0000016c   Code   RO        23893    i.serial_init       BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_NRF51/serial_api.o
+    0x0002b978   0x0000000c   Code   RO        23894    i.serial_irq_handler  BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_NRF51/serial_api.o
+    0x0002b984   0x00000014   Code   RO        23895    i.serial_irq_handler_asynch  BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_NRF51/serial_api.o
+    0x0002b998   0x00000064   Code   RO        23896    i.serial_irq_set    BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_NRF51/serial_api.o
+    0x0002b9fc   0x0000002c   Code   RO        23897    i.serial_putc       BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_NRF51/serial_api.o
+    0x0002ba28   0x0000002c   Code   RO        23946    i.slave_event_handler_1  BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_NRF51/spi_api.o
+    0x0002ba54   0x00000068   Code   RO        21819    i.sleep_manager_lock_deep_sleep_internal  BUILD/NRF51_DK/ARM/mbed-os/hal/mbed_sleep_manager.o
+    0x0002babc   0x00000024   Code   RO        21820    i.sleep_manager_sleep_auto  BUILD/NRF51_DK/ARM/mbed-os/hal/mbed_sleep_manager.o
+    0x0002bae0   0x0000005c   Code   RO        21821    i.sleep_manager_unlock_deep_sleep_internal  BUILD/NRF51_DK/ARM/mbed-os/hal/mbed_sleep_manager.o
+    0x0002bb3c   0x00000014   Code   RO        25191    i.softdevice_ble_evt_handler_set  BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_11/softdevice/common/softdevice_handler/softdevice_handler.o
+    0x0002bb50   0x00000014   Code   RO        25192    i.softdevice_enable  BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_11/softdevice/common/softdevice_handler/softdevice_handler.o
+    0x0002bb64   0x00000024   Code   RO        25193    i.softdevice_enable_get_default_config  BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_11/softdevice/common/softdevice_handler/softdevice_handler.o
+    0x0002bb88   0x00000008   Code   RO        25194    i.softdevice_fault_handler  BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_11/softdevice/common/softdevice_handler/softdevice_handler.o
+    0x0002bb90   0x00000078   Code   RO        25195    i.softdevice_handler_init  BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_11/softdevice/common/softdevice_handler/softdevice_handler.o
+    0x0002bc08   0x0000000c   Code   RO        25196    i.softdevice_handler_isEnabled  BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_11/softdevice/common/softdevice_handler/softdevice_handler.o
+    0x0002bc14   0x00000014   Code   RO        25198    i.softdevice_sys_evt_handler_set  BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_11/softdevice/common/softdevice_handler/softdevice_handler.o
+    0x0002bc28   0x00000174   Code   RO        23950    i.spi_format        BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_NRF51/spi_api.o
+    0x0002bd9c   0x000000d4   Code   RO        23952    i.spi_frequency     BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_NRF51/spi_api.o
+    0x0002be70   0x000000f4   Code   RO        23953    i.spi_init          BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_NRF51/spi_api.o
+    0x0002bf64   0x00000044   Code   RO        23954    i.spi_irq_handler_asynch  BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_NRF51/spi_api.o
+    0x0002bfa8   0x00000044   Code   RO        23957    i.spi_master_write  BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_NRF51/spi_api.o
+    0x0002bfec   0x00000066   Code   RO        24906    i.spis_state_change  BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_11/drivers_nrf/spi_slave/nrf_drv_spis.o
+    0x0002c052   0x00000012   Code   RO        23087    i.svcRtxDelay       BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_delay.o
+    0x0002c064   0x0000006c   Code   RO        23106    i.svcRtxEventFlagsDelete  BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_evflags.o
+    0x0002c0d0   0x00000084   Code   RO        23109    i.svcRtxEventFlagsNew  BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_evflags.o
+    0x0002c154   0x000000ca   Code   RO        23110    i.svcRtxEventFlagsSet  BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_evflags.o
+    0x0002c21e   0x00000002   PAD
+    0x0002c220   0x000000c4   Code   RO        23111    i.svcRtxEventFlagsWait  BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_evflags.o
+    0x0002c2e4   0x0000000c   Code   RO        23170    i.svcRtxKernelGetState  BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_kernel.o
+    0x0002c2f0   0x0000000c   Code   RO        23173    i.svcRtxKernelGetTickCount  BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_kernel.o
+    0x0002c2fc   0x00000180   Code   RO        23175    i.svcRtxKernelInitialize  BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_kernel.o
+    0x0002c47c   0x000000a4   Code   RO        23178    i.svcRtxKernelResume  BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_kernel.o
+    0x0002c520   0x00000098   Code   RO        23179    i.svcRtxKernelStart  BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_kernel.o
+    0x0002c5b8   0x00000060   Code   RO        23180    i.svcRtxKernelSuspend  BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_kernel.o
+    0x0002c618   0x00000134   Code   RO        23311    i.svcRtxMessageQueueGet  BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_msgqueue.o
+    0x0002c74c   0x00000188   Code   RO        23317    i.svcRtxMessageQueueNew  BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_msgqueue.o
+    0x0002c8d4   0x000000cc   Code   RO        23318    i.svcRtxMessageQueuePut  BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_msgqueue.o
+    0x0002c9a0   0x000000c8   Code   RO        23353    i.svcRtxMutexAcquire  BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_mutex.o
+    0x0002ca68   0x000000c4   Code   RO        23354    i.svcRtxMutexDelete  BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_mutex.o
+    0x0002cb2c   0x00000084   Code   RO        23357    i.svcRtxMutexNew    BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_mutex.o
+    0x0002cbb0   0x000000e8   Code   RO        23358    i.svcRtxMutexRelease  BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_mutex.o
+    0x0002cc98   0x0000006c   Code   RO        23384    i.svcRtxSemaphoreDelete  BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_semaphore.o
+    0x0002cd04   0x000000a4   Code   RO        23387    i.svcRtxSemaphoreNew  BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_semaphore.o
+    0x0002cda8   0x00000064   Code   RO        23388    i.svcRtxSemaphoreRelease  BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_semaphore.o
+    0x0002ce0c   0x00000084   Code   RO        23455    i.svcRtxThreadExit  BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_thread.o
+    0x0002ce90   0x0000000c   Code   RO        23461    i.svcRtxThreadGetId  BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_thread.o
+    0x0002ce9c   0x000001e4   Code   RO        23468    i.svcRtxThreadNew   BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_thread.o
+    0x0002d080   0x00000104   Code   RO        23472    i.svcRtxThreadTerminate  BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_thread.o
+    0x0002d184   0x0000005c   Code   RO        21841    i.ticker_insert_event_us  BUILD/NRF51_DK/ARM/mbed-os/hal/mbed_ticker_api.o
+    0x0002d1e0   0x00000068   Code   RO        21842    i.ticker_irq_handler  BUILD/NRF51_DK/ARM/mbed-os/hal/mbed_ticker_api.o
+    0x0002d248   0x0000001c   Code   RO        21843    i.ticker_read       BUILD/NRF51_DK/ARM/mbed-os/hal/mbed_ticker_api.o
+    0x0002d264   0x0000001e   Code   RO        21844    i.ticker_read_us    BUILD/NRF51_DK/ARM/mbed-os/hal/mbed_ticker_api.o
+    0x0002d282   0x00000038   Code   RO        21845    i.ticker_remove_event  BUILD/NRF51_DK/ARM/mbed-os/hal/mbed_ticker_api.o
+    0x0002d2ba   0x00000018   Code   RO        21847    i.ticker_set_handler  BUILD/NRF51_DK/ARM/mbed-os/hal/mbed_ticker_api.o
+    0x0002d2d2   0x00000002   PAD
+    0x0002d2d4   0x00000104   Code   RO        21849    i.update_present_time  BUILD/NRF51_DK/ARM/mbed-os/hal/mbed_ticker_api.o
+    0x0002d3d8   0x0000000c   Code   RO        25322    i.us_ticker_clear_interrupt  BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/us_ticker.o
+    0x0002d3e4   0x00000010   Code   RO        25323    i.us_ticker_disable_interrupt  BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/us_ticker.o
+    0x0002d3f4   0x00000010   Code   RO        25324    i.us_ticker_fire_interrupt  BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/us_ticker.o
+    0x0002d404   0x00000034   Code   RO        25325    i.us_ticker_free    BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/us_ticker.o
+    0x0002d438   0x00000008   Code   RO        25326    i.us_ticker_get_info  BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/us_ticker.o
+    0x0002d440   0x00000078   Code   RO        25327    i.us_ticker_init    BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/us_ticker.o
+    0x0002d4b8   0x00000018   Code   RO        21870    i.us_ticker_irq_handler  BUILD/NRF51_DK/ARM/mbed-os/hal/mbed_us_ticker_api.o
+    0x0002d4d0   0x00000014   Code   RO        25328    i.us_ticker_read    BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/us_ticker.o
+    0x0002d4e4   0x00000034   Code   RO        25329    i.us_ticker_set_interrupt  BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/us_ticker.o
+    0x0002d518   0x00000048   Code   RO        22711    i.wait_ms           BUILD/NRF51_DK/ARM/mbed-os/platform/mbed_wait_api_rtos.o
+    0x0002d560   0x0000002c   Code   RO        25963    locale$$code        C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(lc_ctype_c.o)
+    0x0002d58c   0x0000002c   Code   RO        26140    locale$$code        C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(lc_numeric_c.o)
+    0x0002d5b8   0x00000058   Code   RO        19075    t._ZN12SingletonPtrIN4rtos5MutexEEptEv  BUILD/NRF51_DK/ARM/mbed-os/features/netsocket/nsapi_dns.o
+    0x0002d610   0x0000000c   Code   RO          584    t._ZN26FunctionPointerWithContextIP26GattReadAuthCallbackParamsE14functioncallerEPKS2_S1_  BUILD/NRF51_DK/ARM/main.o
+    0x0002d61c   0x0000000c   Code   RO          581    t._ZN26FunctionPointerWithContextIP27GattWriteAuthCallbackParamsE14functioncallerEPKS2_S1_  BUILD/NRF51_DK/ARM/main.o
+    0x0002d628   0x0000000c   Code   RO          545    t._ZN26FunctionPointerWithContextIPK23GattWriteCallbackParamsE14functioncallerEPKS3_S2_  BUILD/NRF51_DK/ARM/main.o
+    0x0002d634   0x0000000c   Code   RO          551    t._ZN26FunctionPointerWithContextIPKN3Gap26ConnectionCallbackParams_tEE14functioncallerEPKS4_S3_  BUILD/NRF51_DK/ARM/main.o
+    0x0002d640   0x0000000c   Code   RO         3301    t._ZN26FunctionPointerWithContextIPKN3Gap29AdvertisementCallbackParams_tEE14functioncallerEPKS4_S3_  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/generic/GenericGap.o
+    0x0002d64c   0x0000000c   Code   RO          554    t._ZN26FunctionPointerWithContextIPKN3Gap29DisconnectionCallbackParams_tEE14functioncallerEPKS4_S3_  BUILD/NRF51_DK/ARM/main.o
+    0x0002d658   0x0000000c   Code   RO          572    t._ZN26FunctionPointerWithContextIPN3BLE32OnEventsToProcessCallbackContextEE14functioncallerEPKS3_S2_  BUILD/NRF51_DK/ARM/main.o
+    0x0002d664   0x0000000c   Code   RO          569    t._ZN26FunctionPointerWithContextIPN3BLE37InitializationCompleteCallbackContextEE14functioncallerEPKS3_S2_  BUILD/NRF51_DK/ARM/main.o
+    0x0002d670   0x0000000c   Code   RO         3298    t._ZN26FunctionPointerWithContextIbE14functioncallerEPKS0_b  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/generic/GenericGap.o
+    0x0002d67c   0x0000000c   Code   RO         3627    t._ZN26FunctionPointerWithContextIjE14functioncallerEPKS0_j  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/generic/GenericGattClient.o
+    0x0002d688   0x0000000c   Code   RO         4912    t._ZN26FunctionPointerWithContextItE14functioncallerEPKS0_t  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/targets/TARGET_NORDIC/TARGET_NRF51/source/nRF5xGattServer.o
+    0x0002d694   0x0000001c   Code   RO         4505    t._ZN4mbed8CallbackIFvPvPKN3ble7generic19SecurityEntryKeys_tEEE13function_callINS8_14method_contextINS3_22GenericSecurityManagerEMSB_FvS1_S6_EEEEEvPKvS1_S6_  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/generic/GenericSecurityManager.o
+    0x0002d6b0   0x00000002   Code   RO         4511    t._ZN4mbed8CallbackIFvPvPKN3ble7generic19SecurityEntryKeys_tEEE13function_dtorINS8_14method_contextINS3_22GenericSecurityManagerEMSB_FvS1_S6_EEEEEvS1_  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/generic/GenericSecurityManager.o
+    0x0002d6b2   0x00000012   Code   RO         4508    t._ZN4mbed8CallbackIFvPvPKN3ble7generic19SecurityEntryKeys_tEEE13function_moveINS8_14method_contextINS3_22GenericSecurityManagerEMSB_FvS1_S6_EEEEEvS1_PKv  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/generic/GenericSecurityManager.o
+    0x0002d6c4   0x0000001c   Code   RO         4514    t._ZN4mbed8CallbackIFvPvPKN3ble7generic22SecurityEntrySigning_tEEE13function_callINS8_14method_contextINS3_22GenericSecurityManagerEMSB_FvS1_S6_EEEEEvPKvS1_S6_  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/generic/GenericSecurityManager.o
+    0x0002d6e0   0x00000002   Code   RO         4520    t._ZN4mbed8CallbackIFvPvPKN3ble7generic22SecurityEntrySigning_tEEE13function_dtorINS8_14method_contextINS3_22GenericSecurityManagerEMSB_FvS1_S6_EEEEEvS1_  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/generic/GenericSecurityManager.o
+    0x0002d6e2   0x00000012   Code   RO         4517    t._ZN4mbed8CallbackIFvPvPKN3ble7generic22SecurityEntrySigning_tEEE13function_moveINS8_14method_contextINS3_22GenericSecurityManagerEMSB_FvS1_S6_EEEEEvS1_PKv  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/generic/GenericSecurityManager.o
+    0x0002d6f4   0x0000001c   Code   RO         4523    t._ZN4mbed8CallbackIFvPvPKN3ble7generic23SecurityEntryIdentity_tEEE13function_callINS8_14method_contextINS3_22GenericSecurityManagerEMSB_FvS1_S6_EEEEEvPKvS1_S6_  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/generic/GenericSecurityManager.o
+    0x0002d710   0x00000002   Code   RO         4529    t._ZN4mbed8CallbackIFvPvPKN3ble7generic23SecurityEntryIdentity_tEEE13function_dtorINS8_14method_contextINS3_22GenericSecurityManagerEMSB_FvS1_S6_EEEEEvS1_  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/generic/GenericSecurityManager.o
+    0x0002d712   0x00000012   Code   RO         4526    t._ZN4mbed8CallbackIFvPvPKN3ble7generic23SecurityEntryIdentity_tEEE13function_moveINS8_14method_contextINS3_22GenericSecurityManagerEMSB_FvS1_S6_EEEEEvS1_PKv  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/generic/GenericSecurityManager.o
+    0x0002d724   0x0000001c   Code   RO         3823    t._ZN4mbed8CallbackIFvjEE13function_callINS2_14method_contextIN3ble7generic17GenericGattClientEMS7_FvjEEEEEvPKvj  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/generic/GenericGattClient.o
+    0x0002d740   0x00000002   Code   RO         3829    t._ZN4mbed8CallbackIFvjEE13function_dtorINS2_14method_contextIN3ble7generic17GenericGattClientEMS7_FvjEEEEEvPv  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/generic/GenericGattClient.o
+    0x0002d742   0x00000012   Code   RO         3826    t._ZN4mbed8CallbackIFvjEE13function_moveINS2_14method_contextIN3ble7generic17GenericGattClientEMS7_FvjEEEEEvPvPKv  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/generic/GenericGattClient.o
+    0x0002d754   0x0000001c   Code   RO         3814    t._ZN4mbed8CallbackIFvjRKN3ble3pal16AttServerMessageEEE13function_callINS7_14method_contextINS1_7generic17GenericGattClientEMSB_FvjS5_EEEEEvPKvjS5_  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/generic/GenericGattClient.o
+    0x0002d770   0x00000002   Code   RO         3820    t._ZN4mbed8CallbackIFvjRKN3ble3pal16AttServerMessageEEE13function_dtorINS7_14method_contextINS1_7generic17GenericGattClientEMSB_FvjS5_EEEEEvPv  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/generic/GenericGattClient.o
+    0x0002d772   0x00000012   Code   RO         3817    t._ZN4mbed8CallbackIFvjRKN3ble3pal16AttServerMessageEEE13function_moveINS7_14method_contextINS1_7generic17GenericGattClientEMSB_FvjS5_EEEEEvPvPKv  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/generic/GenericGattClient.o
+    0x0002d784   0x00000018   Code   RO          602    t._ZN4mbed8CallbackIFvvEE13function_callINS2_14method_contextI3BLEMS5_FvvEEEEEvPKv  BUILD/NRF51_DK/ARM/main.o
+    0x0002d79c   0x00000004   Code   RO          593    t._ZN4mbed8CallbackIFvvEE13function_callIPS1_EEvPKv  BUILD/NRF51_DK/ARM/main.o
+    0x0002d7a0   0x00000002   Code   RO          608    t._ZN4mbed8CallbackIFvvEE13function_dtorINS2_14method_contextI3BLEMS5_FvvEEEEEvPv  BUILD/NRF51_DK/ARM/main.o
+    0x0002d7a2   0x00000002   Code   RO          599    t._ZN4mbed8CallbackIFvvEE13function_dtorIPS1_EEvPv  BUILD/NRF51_DK/ARM/main.o
+    0x0002d7a4   0x00000012   Code   RO          605    t._ZN4mbed8CallbackIFvvEE13function_moveINS2_14method_contextI3BLEMS5_FvvEEEEEvPvPKv  BUILD/NRF51_DK/ARM/main.o
+    0x0002d7b6   0x0000000a   Code   RO          596    t._ZN4mbed8CallbackIFvvEE13function_moveIPS1_EEvPvPKv  BUILD/NRF51_DK/ARM/main.o
+    0x0002d7c0   0x00000014   Code   RO         2199    t._ZN4mbed8CallbackIFvvEED1Ev  BUILD/NRF51_DK/ARM/mbed-os/drivers/SerialBase.o
+    0x0002d7d4   0x0000002e   Code   RO         2196    t._ZN6CThunkIN4mbed10SerialBaseEE10trampolineEPS1_PvPMS1_FvS4_E  BUILD/NRF51_DK/ARM/mbed-os/drivers/SerialBase.o
+    0x0002d802   0x0000002e   Code   RO         1992    t._ZN6CThunkIN4mbed3SPIEE10trampolineEPS1_PvPMS1_FvS4_E  BUILD/NRF51_DK/ARM/mbed-os/drivers/SPI.o
+    0x0002d830   0x0000002c   Code   RO          557    t._ZN6events10EventQueue13function_callIN4mbed8CallbackIFvvEEEEEvPv  BUILD/NRF51_DK/ARM/main.o
+    0x0002d85c   0x00000004   Code   RO          563    t._ZN6events10EventQueue13function_callIPFvvEEEvPv  BUILD/NRF51_DK/ARM/main.o
+    0x0002d860   0x0000000c   Code   RO          560    t._ZN6events10EventQueue13function_dtorIN4mbed8CallbackIFvvEEEEEvPv  BUILD/NRF51_DK/ARM/main.o
+    0x0002d86c   0x00000002   Code   RO          566    t._ZN6events10EventQueue13function_dtorIPFvvEEEvPv  BUILD/NRF51_DK/ARM/main.o
+    0x0002d86e   0x00000002   PAD
+    0x0002d870   0x00000010   Code   RO        25812    x$fpl$printf1       C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\fz_ps.l(printf1.o)
+    0x0002d880   0x00000010   Code   RO        26054    x$fpl$printf2       C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\fz_ps.l(printf2.o)
+    0x0002d890   0x00000000   Code   RO        26062    x$fpl$usenofp       C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\fz_ps.l(usenofp.o)
+    0x0002d890   0x00000500   Data   RO          194    .constdata          BUILD/NRF51_DK/ARM/Adafruit-GFX-Library-Mbed_Compatible/Adafruit_GFX.o
+    0x0002dd90   0x00008022   Data   RO          511    .constdata          BUILD/NRF51_DK/ARM/main.o
+    0x00035db2   0x0000010f   Data   RO          512    .constdata          BUILD/NRF51_DK/ARM/main.o
+    0x00035ec1   0x00000001   PAD
+    0x00035ec2   0x000002f8   Data   RO          513    .constdata          BUILD/NRF51_DK/ARM/main.o
+    0x000361ba   0x00000002   PAD
+    0x000361bc   0x00000010   Data   RO         1958    .constdata          BUILD/NRF51_DK/ARM/mbed-os/drivers/SPI.o
+    0x000361cc   0x00000010   Data   RO         2156    .constdata          BUILD/NRF51_DK/ARM/mbed-os/drivers/SerialBase.o
+    0x000361dc   0x00000014   Data   RO         2703    .constdata          BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/BLE.o
+    0x000361f0   0x00000002   Data   RO         2803    .constdata          BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/Gap.o
+    0x000361f2   0x00000002   Data   RO         2804    .constdata          BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/Gap.o
+    0x000361f4   0x00000020   Data   RO         3558    .constdata          BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/generic/GenericGattClient.o
+    0x00036214   0x00000038   Data   RO         4070    .constdata          BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/generic/GenericSecurityManager.o
+    0x0003624c   0x00000010   Data   RO         4604    .constdata          BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/targets/TARGET_NORDIC/TARGET_NRF51/source/btle/btle.o
+    0x0003625c   0x00000020   Data   RO         4755    .constdata          BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/targets/TARGET_NORDIC/TARGET_NRF51/source/nRF5xGap.o
+    0x0003627c   0x00000070   Data   RO         4887    .constdata          BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/targets/TARGET_NORDIC/TARGET_NRF51/source/nRF5xGattServer.o
+    0x000362ec   0x00000014   Data   RO         5521    .constdata          BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/targets/TARGET_NORDIC/TARGET_NRF51/source/nRF5xn.o
+    0x00036300   0x00000020   Data   RO        21783    .constdata          BUILD/NRF51_DK/ARM/mbed-os/hal/mbed_lp_ticker_api.o
+    0x00036320   0x00000008   Data   RO        21784    .constdata          BUILD/NRF51_DK/ARM/mbed-os/hal/mbed_lp_ticker_api.o
+    0x00036328   0x00000020   Data   RO        21872    .constdata          BUILD/NRF51_DK/ARM/mbed-os/hal/mbed_us_ticker_api.o
+    0x00036348   0x00000008   Data   RO        21873    .constdata          BUILD/NRF51_DK/ARM/mbed-os/hal/mbed_us_ticker_api.o
+    0x00036350   0x00000028   Data   RO        22512    .constdata          BUILD/NRF51_DK/ARM/mbed-os/platform/mbed_retarget.o
+    0x00036378   0x00000024   Data   RO        23226    .constdata          BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_lib.o
+    0x0003639c   0x00000024   Data   RO        23227    .constdata          BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_lib.o
+    0x000363c0   0x00000018   Data   RO        23228    .constdata          BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_lib.o
+    0x000363d8   0x00000004   Data   RO        23229    .constdata          BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_lib.o
+    0x000363dc   0x0000006c   Data   RO        23736    .constdata          BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_NRF51/TARGET_MCU_NRF51822_UNIFIED/analogin_api.o
+    0x00036448   0x00000001   Data   RO        23810    .constdata          BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_NRF51/TARGET_MCU_NRF51822_UNIFIED/sdk/drivers_nrf/adc/nrf_drv_adc.o
+    0x00036449   0x00000003   PAD
+    0x0003644c   0x00000090   Data   RO        23908    .constdata          BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_NRF51/serial_api.o
+    0x000364dc   0x00000010   Data   RO        23962    .constdata          BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_NRF51/spi_api.o
+    0x000364ec   0x00000014   Data   RO        24890    .constdata          BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_11/drivers_nrf/spi_master/nrf_drv_spi.o
+    0x00036500   0x0000001c   Data   RO        24908    .constdata          BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_11/drivers_nrf/spi_slave/nrf_drv_spis.o
+    0x0003651c   0x00000014   Data   RO        25017    .constdata          BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_11/libraries/fds/fds.o
+    0x00036530   0x00000008   Data   RO        25276    .constdata          BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/lp_ticker.o
+    0x00036538   0x00000008   Data   RO        25330    .constdata          BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/us_ticker.o
+    0x00036540   0x00000028   Data   RO        25480    .constdata          C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(_printf_hex_int_ll_ptr.o)
+    0x00036568   0x00000011   Data   RO        25500    .constdata          C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(__printf_flags_ss_wp.o)
+    0x00036579   0x00000001   Data   RO        25752    .constdata          C:\Keil_v5\ARM\ARMCC\bin\..\lib\cpplib\cpprt_p.l(nothrow_obj.o)
+    0x0003657a   0x00000080   Data   RO        25767    .constdata          C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\fz_ps.l(ddiv.o)
+    0x000365fa   0x00000040   Data   RO        25794    .constdata          C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\fz_ps.l(fdiv.o)
+    0x0003663a   0x00000002   PAD
+    0x0003663c   0x00000008   Data   RO        25896    .constdata          C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(_printf_wctomb.o)
+    0x00036644   0x00000026   Data   RO        26084    .constdata          C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(_printf_fp_hex.o)
+    0x0003666a   0x00000002   PAD
+    0x0003666c   0x00000094   Data   RO        26105    .constdata          C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(bigflt0.o)
+    0x00036700   0x00000040   Data   RO         3637    .constdata__ZTV10GattClient  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/generic/GenericGattClient.o
+    0x00036740   0x00000050   Data   RO          276    .constdata__ZTV12Adafruit_GFX  BUILD/NRF51_DK/ARM/Adafruit-GFX-Library-Mbed_Compatible/Adafruit_GFX.o
+    0x00036790   0x00000050   Data   RO        22614    .constdata__ZTV12DirectSerial  BUILD/NRF51_DK/ARM/mbed-os/platform/mbed_retarget.o
+    0x000367e0   0x000000a0   Data   RO          461    .constdata__ZTV12TFT_ILI9163C  BUILD/NRF51_DK/ARM/TFT_ILI9163C/TFT_ILI9163C_GENERIC.o
+    0x00036880   0x000000a4   Data   RO         4323    .constdata__ZTV15SecurityManager  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/generic/GenericSecurityManager.o
+    0x00036924   0x0000002c   Data   RO         4911    .constdata__ZTV15nRF5xGattServer  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/targets/TARGET_NORDIC/TARGET_NRF51/source/nRF5xGattServer.o
+    0x00036950   0x000000a0   Data   RO          403    .constdata__ZTV17TFT_ILI9163C_BASE  BUILD/NRF51_DK/ARM/TFT_ILI9163C/TFT_ILI9163C_BASE.o
+    0x000369f0   0x00000010   Data   RO         3316    .constdata__ZTV38CallChainOfFunctionPointersWithContextIN3Gap15TimeoutSource_tEE  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/generic/GenericGap.o
+    0x00036a00   0x00000010   Data   RO         3653    .constdata__ZTV38CallChainOfFunctionPointersWithContextIPK10GattClientE  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/generic/GenericGattClient.o
+    0x00036a10   0x00000010   Data   RO         5573    .constdata__ZTV38CallChainOfFunctionPointersWithContextIPK10GattServerE  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/targets/TARGET_NORDIC/TARGET_NRF51/source/nRF5xn.o
+    0x00036a20   0x00000010   Data   RO         4328    .constdata__ZTV38CallChainOfFunctionPointersWithContextIPK15SecurityManagerE  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/generic/GenericSecurityManager.o
+    0x00036a30   0x00000010   Data   RO         3639    .constdata__ZTV38CallChainOfFunctionPointersWithContextIPK21GattHVXCallbackParamsE  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/generic/GenericGattClient.o
+    0x00036a40   0x00000010   Data   RO         3649    .constdata__ZTV38CallChainOfFunctionPointersWithContextIPK22GattReadCallbackParamsE  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/generic/GenericGattClient.o
+    0x00036a50   0x00000010   Data   RO         3651    .constdata__ZTV38CallChainOfFunctionPointersWithContextIPK23GattWriteCallbackParamsE  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/generic/GenericGattClient.o
+    0x00036a60   0x00000010   Data   RO         3323    .constdata__ZTV38CallChainOfFunctionPointersWithContextIPK3GapE  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/generic/GenericGap.o
+    0x00036a70   0x00000010   Data   RO         3319    .constdata__ZTV38CallChainOfFunctionPointersWithContextIPKN3Gap26ConnectionCallbackParams_tEE  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/generic/GenericGap.o
+    0x00036a80   0x00000010   Data   RO         3321    .constdata__ZTV38CallChainOfFunctionPointersWithContextIPKN3Gap29DisconnectionCallbackParams_tEE  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/generic/GenericGap.o
+    0x00036a90   0x00000010   Data   RO         5571    .constdata__ZTV38CallChainOfFunctionPointersWithContextIjE  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/targets/TARGET_NORDIC/TARGET_NRF51/source/nRF5xn.o
+    0x00036aa0   0x000000b0   Data   RO         3314    .constdata__ZTV3Gap  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/generic/GenericGap.o
+    0x00036b50   0x00000044   Data   RO         5545    .constdata__ZTV6nRF5xn  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/targets/TARGET_NORDIC/TARGET_NRF51/source/nRF5xn.o
+    0x00036b94   0x000000c8   Data   RO         4815    .constdata__ZTV8nRF5xGap  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/targets/TARGET_NORDIC/TARGET_NRF51/source/nRF5xGap.o
+    0x00036c5c   0x00000040   Data   RO         5568    .constdata__ZTVN15SecurityManager18LegacyEventHandlerE  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/targets/TARGET_NORDIC/TARGET_NRF51/source/nRF5xn.o
+    0x00036c9c   0x00000058   Data   RO         5099    .constdata__ZTVN3ble3pal10GattClientE  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/targets/TARGET_NORDIC/TARGET_NRF51/source/nRF5xPalGattClient.o
+    0x00036cf4   0x00000058   Data   RO         5083    .constdata__ZTVN3ble3pal6vendor6nordic15nRF5xGattClientE  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/targets/TARGET_NORDIC/TARGET_NRF51/source/nRF5xPalGattClient.o
+    0x00036d4c   0x00000098   Data   RO         5473    .constdata__ZTVN3ble3pal6vendor6nordic20nRF5xSecurityManagerE  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/targets/TARGET_NORDIC/TARGET_NRF51/source/nRF5xPalSecurityManager.o
+    0x00036de4   0x00000050   Data   RO         3594    .constdata__ZTVN3ble7generic17GenericGattClientE  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/generic/GenericGattClient.o
+    0x00036e34   0x000001c0   Data   RO         4286    .constdata__ZTVN3ble7generic22GenericSecurityManagerE  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/generic/GenericSecurityManager.o
+    0x00036ff4   0x00000050   Data   RO        22033    .constdata__ZTVN4mbed10FileHandleE  BUILD/NRF51_DK/ARM/mbed-os/platform/FileHandle.o
+    0x00037044   0x00000018   Data   RO         2195    .constdata__ZTVN4mbed10SerialBaseE  BUILD/NRF51_DK/ARM/mbed-os/drivers/SerialBase.o
+    0x0003705c   0x00000014   Data   RO         2326    .constdata__ZTVN4mbed10TimerEventE  BUILD/NRF51_DK/ARM/mbed-os/drivers/TimerEvent.o
+    0x00037070   0x00000020   Data   RO         1991    .constdata__ZTVN4mbed3SPIE  BUILD/NRF51_DK/ARM/mbed-os/drivers/SPI.o
+    0x00037090   0x00000090   Data   RO         2056    .constdata__ZTVN4mbed6SerialE  BUILD/NRF51_DK/ARM/mbed-os/drivers/Serial.o
+    0x00037120   0x00000070   Data   RO        22194    .constdata__ZTVN4mbed6StreamE  BUILD/NRF51_DK/ARM/mbed-os/platform/Stream.o
+    0x00037190   0x00000014   Data   RO         2226    .constdata__ZTVN4mbed6TickerE  BUILD/NRF51_DK/ARM/mbed-os/drivers/Ticker.o
+    0x000371a4   0x00000014   Data   RO         2245    .constdata__ZTVN4mbed7TimeoutE  BUILD/NRF51_DK/ARM/mbed-os/drivers/Timeout.o
+    0x000371b8   0x00000018   Data   RO          588    .constdata__ZTVN4mbed8AnalogInE  BUILD/NRF51_DK/ARM/main.o
+    0x000371d0   0x00000010   Data   RO        22019    .constdata__ZTVN4mbed8FileBaseE  BUILD/NRF51_DK/ARM/mbed-os/platform/FileBase.o
+    0x000371e0   0x00000010   Data   RO        23726    .constdata__ZTVN4rtos6ThreadE  BUILD/NRF51_DK/ARM/mbed-os/rtos/Thread.o
+    0x000371f0   0x00000014   Data   RO        22915    .constdata__ZTVN4rtos8internal8SysTimerE  BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/SysTimer.o
+    0x00037204   0x00000014   Data   RO          540    .constdata__ZZN12SingletonPtrIN4rtos5MutexEE3getEvEs  BUILD/NRF51_DK/ARM/main.o
+    0x00037218   0x00000022   Data   RO          541    .constdata__ZZN12SingletonPtrIN4rtos5MutexEE3getEvEs_0  BUILD/NRF51_DK/ARM/main.o
+    0x0003723a   0x00000002   PAD
+    0x0003723c   0x0000000c   Data   RO         4329    .constdata__ZZN4mbed8CallbackIFvPvPKN3ble7generic19SecurityEntryKeys_tEEE8generateINS8_14method_contextINS3_22GenericSecurityManagerEMSB_FvS1_S6_EEEEEvRKT_E3ops  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/generic/GenericSecurityManager.o
+    0x00037248   0x0000000c   Data   RO         4330    .constdata__ZZN4mbed8CallbackIFvPvPKN3ble7generic22SecurityEntrySigning_tEEE8generateINS8_14method_contextINS3_22GenericSecurityManagerEMSB_FvS1_S6_EEEEEvRKT_E3ops  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/generic/GenericSecurityManager.o
+    0x00037254   0x0000000c   Data   RO         4331    .constdata__ZZN4mbed8CallbackIFvPvPKN3ble7generic23SecurityEntryIdentity_tEEE8generateINS8_14method_contextINS3_22GenericSecurityManagerEMSB_FvS1_S6_EEEEEvRKT_E3ops  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/generic/GenericSecurityManager.o
+    0x00037260   0x0000000c   Data   RO         3656    .constdata__ZZN4mbed8CallbackIFvjEE8generateINS2_14method_contextIN3ble7generic17GenericGattClientEMS7_FvjEEEEEvRKT_E3ops  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/generic/GenericGattClient.o
+    0x0003726c   0x0000000c   Data   RO         3655    .constdata__ZZN4mbed8CallbackIFvjRKN3ble3pal16AttServerMessageEEE8generateINS7_14method_contextINS1_7generic17GenericGattClientEMSB_FvjS5_EEEEEvRKT_E3ops  BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/generic/GenericGattClient.o
+    0x00037278   0x0000000c   Data   RO          590    .constdata__ZZN4mbed8CallbackIFvvEE8generateINS2_14method_contextI3BLEMS5_FvvEEEEEvRKT_E3ops  BUILD/NRF51_DK/ARM/main.o
+    0x00037284   0x0000000c   Data   RO          589    .constdata__ZZN4mbed8CallbackIFvvEE8generateIPS1_EEvRKT_E3ops  BUILD/NRF51_DK/ARM/main.o
+    0x00037290   0x00000005   Data   RO         1656    .constdata__ZZNK4mbed8CallbackIFviEE4callEiEs  BUILD/NRF51_DK/ARM/mbed-os/drivers/I2C.o
+    0x00037295   0x0000001e   Data   RO         1657    .constdata__ZZNK4mbed8CallbackIFviEE4callEiEs_0  BUILD/NRF51_DK/ARM/mbed-os/drivers/I2C.o
+    0x000372b3   0x00000005   Data   RO          538    .constdata__ZZNK4mbed8CallbackIFvvEE4callEvEs  BUILD/NRF51_DK/ARM/main.o
+    0x000372b8   0x0000001e   Data   RO          539    .constdata__ZZNK4mbed8CallbackIFvvEE4callEvEs_0  BUILD/NRF51_DK/ARM/main.o
+    0x000372d6   0x00000002   PAD
+    0x000372d8   0x00000356   Data   RO         2704    .conststring        BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/BLE.o
+    0x0003762e   0x00000002   PAD
+    0x00037630   0x00000049   Data   RO         4071    .conststring        BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/generic/GenericSecurityManager.o
+    0x00037679   0x00000003   PAD
+    0x0003767c   0x00000056   Data   RO         4756    .conststring        BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/targets/TARGET_NORDIC/TARGET_NRF51/source/nRF5xGap.o
+    0x000376d2   0x00000002   PAD
+    0x000376d4   0x000000f0   Data   RO        22309    .conststring        BUILD/NRF51_DK/ARM/mbed-os/platform/mbed_error.o
+    0x000377c4   0x00000049   Data   RO        22927    .conststring        BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/TARGET_CORTEX_M/mbed_rtx_fault_handler.o
+    0x0003780d   0x00000003   PAD
+    0x00037810   0x0000000c   Data   RO        23230    .conststring        BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_lib.o
+    0x0003781c   0x0000000d   Data   RO        23231    .conststring        BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_lib.o
+    0x00037829   0x00000003   PAD
+    0x0003782c   0x000000a9   Data   RO        23737    .conststring        BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_NRF51/TARGET_MCU_NRF51822_UNIFIED/analogin_api.o
+    0x000378d5   0x00000003   PAD
+    0x000378d8   0x00000078   Data   RO        23811    .conststring        BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_NRF51/TARGET_MCU_NRF51822_UNIFIED/sdk/drivers_nrf/adc/nrf_drv_adc.o
+    0x00037950   0x00000044   Data   RO        23963    .conststring        BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_NRF51/spi_api.o
+    0x00037994   0x0000005f   Data   RO        24676    .conststring        BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_11/drivers_nrf/common/nrf_drv_common.o
+    0x000379f3   0x00000001   PAD
+    0x000379f4   0x0000005f   Data   RO        24716    .conststring        BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_11/drivers_nrf/gpiote/nrf_drv_gpiote.o
+    0x00037a53   0x00000001   PAD
+    0x00037a54   0x00000060   Data   RO        24891    .conststring        BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_11/drivers_nrf/spi_master/nrf_drv_spi.o
+    0x00037ab4   0x00000060   Data   RO        24909    .conststring        BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_11/drivers_nrf/spi_slave/nrf_drv_spis.o
+    0x00037b14   0x0000000b   Data   RO        23182    .conststrlit        BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_kernel.o
+    0x00037b1f   0x00000001   PAD
+    0x00037b20   0x00000068   Data   RO        23233    .rodata             BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_lib.o
+    0x00037b88   0x00000020   Data   RO        26324    Region$$Table       anon$$obj.o
+    0x00037ba8   0x00000110   Data   RO        25962    locale$$data        C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(lc_ctype_c.o)
+    0x00037cb8   0x0000001c   Data   RO        26139    locale$$data        C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(lc_numeric_c.o)
+    0x00037cd4   0x00000004   Data   RO          515    .init_array         BUILD/NRF51_DK/ARM/main.o
+    0x00037cd8   0x00000004   Data   RO         3176    .init_array         BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/generic/GenericGap.o
+    0x00037cdc   0x00000000   Data   RO        25638    .init_array         C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(init_aeabi.o)
+
+
+    Execution Region RW_IRAM0 (Base: 0x20002ef8, Size: 0x000000c0, Max: 0x000000c0, ABSOLUTE, UNINIT)
+
+    Base Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x20002ef8   0x000000c0   Zero   RW        23878    .bss.noinit         BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_NRF51/reloc_vector_table.o
+
+
+    Execution Region RW_IRAM1 (Base: 0x20002fb8, Size: 0x00002c80, Max: 0x00005048, ABSOLUTE, COMPRESSED[0x00000090])
+
+    Base Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x20002fb8   0x00000040   Data   RW        23219    .bss.os             BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_lib.o
+    0x20002ff8   0x000001f0   Data   RW        22942    .bss.os.libspace    BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/TOOLCHAIN_ARM_STD/mbed_boot_arm_std.o
+    0x200031e8   0x00000034   Data   RW        23220    .bss.os.msgqueue.cb  BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_lib.o
+    0x2000321c   0x00000050   Data   RW        23221    .bss.os.msgqueue.mem  BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_lib.o
+    0x2000326c   0x00000044   Data   RW        23222    .bss.os.thread.cb   BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_lib.o
+    0x200032b0   0x00000044   Data   RW        23223    .bss.os.thread.cb   BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_lib.o
+    0x200032f4   0x00000004   PAD
+    0x200032f8   0x00000200   Data   RW        23224    .bss.os.thread.stack  BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_lib.o
+    0x200034f8   0x00000300   Data   RW        23225    .bss.os.thread.stack  BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_lib.o
+    0x200037f8   0x00000074   Data   RW          514    .data               BUILD/NRF51_DK/ARM/main.o
+    0x2000386c   0x00000004   Data   RW         1959    .data               BUILD/NRF51_DK/ARM/mbed-os/drivers/SPI.o
+    0x20003870   0x00000040   Data   RW         2705    .data               BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/BLE.o
+    0x200038b0   0x00000008   Data   RW         3175    .data               BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/generic/GenericGap.o
+    0x200038b8   0x00000001   Data   RW         4605    .data               BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/targets/TARGET_NORDIC/TARGET_NRF51/source/btle/btle.o
+    0x200038b9   0x00000003   PAD
+    0x200038bc   0x00000004   Data   RW         4637    .data               BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/targets/TARGET_NORDIC/TARGET_NRF51/source/btle/custom/custom_helper.o
+    0x200038c0   0x00000004   Data   RW         5019    .data               BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/targets/TARGET_NORDIC/TARGET_NRF51/source/nRF5xPalGattClient.o
+    0x200038c4   0x00000004   Data   RW         5417    .data               BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/targets/TARGET_NORDIC/TARGET_NRF51/source/nRF5xPalSecurityManager.o
+    0x200038c8   0x00000014   Data   RW         5522    .data               BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/targets/TARGET_NORDIC/TARGET_NRF51/source/nRF5xn.o
+    0x200038dc   0x00000004   Data   RW        21785    .data               BUILD/NRF51_DK/ARM/mbed-os/hal/mbed_lp_ticker_api.o
+    0x200038e0   0x00000018   Data   RW        21822    .data               BUILD/NRF51_DK/ARM/mbed-os/hal/mbed_sleep_manager.o
+    0x200038f8   0x00000004   Data   RW        21874    .data               BUILD/NRF51_DK/ARM/mbed-os/hal/mbed_us_ticker_api.o
+    0x200038fc   0x00000008   Data   RW        22007    .data               BUILD/NRF51_DK/ARM/mbed-os/platform/FileBase.o
+    0x20003904   0x00000004   Data   RW        22273    .data               BUILD/NRF51_DK/ARM/mbed-os/platform/mbed_critical.o
+    0x20003908   0x0000000c   Data   RW        22310    .data               BUILD/NRF51_DK/ARM/mbed-os/platform/mbed_error.o
+    0x20003914   0x00000004   Data   RW        22513    .data               BUILD/NRF51_DK/ARM/mbed-os/platform/mbed_retarget.o
+    0x20003918   0x00000004   Data   RW        22514    .data               BUILD/NRF51_DK/ARM/mbed-os/platform/mbed_retarget.o
+    0x2000391c   0x00000048   Data   RW        22515    .data               BUILD/NRF51_DK/ARM/mbed-os/platform/mbed_retarget.o
+    0x20003964   0x00000001   Data   RW        22943    .data               BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/TOOLCHAIN_ARM_STD/mbed_boot_arm_std.o
+    0x20003965   0x00000003   PAD
+    0x20003968   0x00000004   Data   RW        22960    .data               BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/mbed_boot.o
+    0x2000396c   0x00000004   Data   RW        22961    .data               BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/mbed_boot.o
+    0x20003970   0x00000004   Data   RW        22974    .data               BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/mbed_rtos_rtx.o
+    0x20003974   0x00000004   Data   RW        22986    .data               BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/mbed_rtx_handlers.o
+    0x20003978   0x00000008   Data   RW        23017    .data               BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/mbed_rtx_idle.o
+    0x20003980   0x00000001   Data   RW        23577    .data               BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/rtx5/Source/os_systick.o
+    0x20003981   0x00000003   PAD
+    0x20003984   0x00000004   Data   RW        23758    .data               BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_NRF51/TARGET_MCU_NRF51822_UNIFIED/device/system_nrf51.o
+    0x20003988   0x00000001   Data   RW        23869    .data               BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_NRF51/nordic_critical.o
+    0x20003989   0x00000003   PAD
+    0x2000398c   0x00000004   Data   RW        23909    .data               BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_NRF51/serial_api.o
+    0x20003990   0x00000010   Data   RW        23964    .data               BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_NRF51/spi_api.o
+    0x200039a0   0x00000010   Data   RW        24677    .data               BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_11/drivers_nrf/common/nrf_drv_common.o
+    0x200039b0   0x00000018   Data   RW        25018    .data               BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_11/libraries/fds/fds.o
+    0x200039c8   0x00000002   Data   RW        25059    .data               BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_11/libraries/fstorage/fstorage.o
+    0x200039ca   0x00000002   PAD
+    0x200039cc   0x0000001c   Data   RW        25199    .data               BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_11/softdevice/common/softdevice_handler/softdevice_handler.o
+    0x200039e8   0x00000008   Data   RW        25229    .data               BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/common_rtc.o
+    0x200039f0   0x0000000c   Data   RW        25252    .data               BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/gpio_api.o
+    0x200039fc   0x00000001   Data   RW        25331    .data               BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/us_ticker.o
+    0x200039fd   0x00000003   PAD
+    0x20003a00   0x00000004   Data   RW        25556    .data               C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(stdio_streams.o)
+    0x20003a04   0x00000004   Data   RW        25557    .data               C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(stdio_streams.o)
+    0x20003a08   0x00000004   Data   RW        25558    .data               C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(stdio_streams.o)
+    0x20003a0c   0x00000004   Data   RW        25953    .data               C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(streamlock.o)
+    0x20003a10   0x000000a4   Data   RW        23183    .data.os            BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_kernel.o
+    0x20003ab4   0x00000010   Data   RW        25019    fs_data             BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_11/libraries/fds/fds.o
+    0x20003ac4   0x00000298   Zero   RW          510    .bss                BUILD/NRF51_DK/ARM/main.o
+    0x20003d5c   0x00000028   Zero   RW         1423    .bss                BUILD/NRF51_DK/ARM/mbed-os/drivers/AnalogIn.o
+    0x20003d84   0x00000028   Zero   RW         1957    .bss                BUILD/NRF51_DK/ARM/mbed-os/drivers/SPI.o
+    0x20003dac   0x00000020   Zero   RW         2702    .bss                BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/source/BLE.o
+    0x20003dcc   0x00000080   Zero   RW         4603    .bss                BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/targets/TARGET_NORDIC/TARGET_NRF51/source/btle/btle.o
+    0x20003e4c   0x00000044   Zero   RW         4636    .bss                BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/targets/TARGET_NORDIC/TARGET_NRF51/source/btle/custom/custom_helper.o
+    0x20003e90   0x00000034   Zero   RW         5013    .bss                BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/targets/TARGET_NORDIC/TARGET_NRF51/source/nRF5xPalGattClient.o
+    0x20003ec4   0x000000e0   Zero   RW         5416    .bss                BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/targets/TARGET_NORDIC/TARGET_NRF51/source/nRF5xPalSecurityManager.o
+    0x20003fa4   0x00000004   PAD
+    0x20003fa8   0x0000030c   Zero   RW         5518    .bss                BUILD/NRF51_DK/ARM/mbed-os/features/FEATURE_BLE/targets/TARGET_NORDIC/TARGET_NRF51/source/nRF5xn.o
+    0x200042b4   0x00000004   PAD
+    0x200042b8   0x00000040   Zero   RW        21782    .bss                BUILD/NRF51_DK/ARM/mbed-os/hal/mbed_lp_ticker_api.o
+    0x200042f8   0x00000040   Zero   RW        21871    .bss                BUILD/NRF51_DK/ARM/mbed-os/hal/mbed_us_ticker_api.o
+    0x20004338   0x00000028   Zero   RW        22006    .bss                BUILD/NRF51_DK/ARM/mbed-os/platform/FileBase.o
+    0x20004360   0x00000068   Zero   RW        22308    .bss                BUILD/NRF51_DK/ARM/mbed-os/platform/mbed_error.o
+    0x200043c8   0x00000174   Zero   RW        22511    .bss                BUILD/NRF51_DK/ARM/mbed-os/platform/mbed_retarget.o
+    0x2000453c   0x00000054   Zero   RW        22926    .bss                BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/TARGET_CORTEX_M/mbed_rtx_fault_handler.o
+    0x20004590   0x00000100   Zero   RW        22941    .bss                BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/TOOLCHAIN_ARM_STD/mbed_boot_arm_std.o
+    0x20004690   0x00001098   Zero   RW        22973    .bss                BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/mbed_rtos_rtx.o
+    0x20005728   0x00000038   Zero   RW        23016    .bss                BUILD/NRF51_DK/ARM/mbed-os/rtos/TARGET_CORTEX/mbed_rtx_idle.o
+    0x20005760   0x00000014   Zero   RW        23809    .bss                BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_NRF51/TARGET_MCU_NRF51822_UNIFIED/sdk/drivers_nrf/adc/nrf_drv_adc.o
+    0x20005774   0x00000080   Zero   RW        23907    .bss                BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_NRF51/serial_api.o
+    0x200057f4   0x00000018   Zero   RW        23961    .bss                BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_NRF51/spi_api.o
+    0x2000580c   0x00000034   Zero   RW        24115    .bss                BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_11/ble/common/ble_conn_state.o
+    0x20005840   0x0000000c   Zero   RW        24653    .bss                BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_11/drivers_nrf/clock/nrf_drv_clock.o
+    0x2000584c   0x0000005c   Zero   RW        24715    .bss                BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_11/drivers_nrf/gpiote/nrf_drv_gpiote.o
+    0x200058a8   0x00000020   Zero   RW        24889    .bss                BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_11/drivers_nrf/spi_master/nrf_drv_spi.o
+    0x200058c8   0x00000018   Zero   RW        24907    .bss                BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_11/drivers_nrf/spi_slave/nrf_drv_spis.o
+    0x200058e0   0x00000108   Zero   RW        25016    .bss                BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_11/libraries/fds/fds.o
+    0x200059e8   0x00000058   Zero   RW        25058    .bss                BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_11/libraries/fstorage/fstorage.o
+    0x20005a40   0x0000009b   Zero   RW        25251    .bss                BUILD/NRF51_DK/ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/gpio_api.o
+    0x20005adb   0x00000001   PAD
+    0x20005adc   0x00000054   Zero   RW        25553    .bss                C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(stdio_streams.o)
+    0x20005b30   0x00000054   Zero   RW        25554    .bss                C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(stdio_streams.o)
+    0x20005b84   0x00000054   Zero   RW        25555    .bss                C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(stdio_streams.o)
+    0x20005bd8   0x00000060   Zero   RW        25833    .bss                C:\Keil_v5\ARM\ARMCC\bin\..\lib\armlib\c_p.l(libspace.o)
+
+
+==============================================================================
+
+Image component sizes
+
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
+
+     62484       7338      41504       2812       8408      46356   Object Totals
+         0          0         32          0          0          0   (incl. Generated)
+        88          0         29         21          9          0   (incl. Padding)
+     13244        518        748         16        348       8036   Library Totals
+        22          0          4          0          0          0   (incl. Padding)
+
+==============================================================================
+
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
+
+     75728       7856      42252       2828       8756      22132   Grand Totals
+     75728       7856      42252        144       8756      22132   ELF Image Totals (compressed)
+     75728       7856      42252        144          0          0   ROM Totals
+
+==============================================================================
+
+    Total RO  Size (Code + RO Data)               117980 ( 115.21kB)
+    Total RW  Size (RW Data + ZI Data)             11584 (  11.31kB)
+    Total ROM Size (Code + RO Data + RW Data)     118124 ( 115.36kB)
+
+==============================================================================
+
